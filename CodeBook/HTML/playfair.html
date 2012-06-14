@@ -1,0 +1,55 @@
+<html>
+<head>
+	<script src="jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script src="cipher.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">	
+
+	<script>
+		$(document).ready(function(){
+			$('#encipher').click(function() {
+				var keyword = $('#keyword').val();
+				var plain = $('#plaintext').val();
+				
+				var method = 113;
+				if($("#method2").is(':checked')) method = 106;
+				
+				var cipher = playfair_encode(plain,keyword,method);
+				
+				encipher(cipher);			
+			});
+			
+			$('#decipher').click(function() {
+				var keyword = $('#keyword').val();
+				var cipher = $('#ciphertext').val();
+				
+				var method = 113;
+				if($("#method2").is(':checked')) method = 106;
+				
+				var plain = playfair_decode(cipher,keyword,method);
+				
+				decipher(plain);
+			});
+		});
+	</script>
+
+</head>
+<body>
+<div id="top">
+Keyword: <input type="text" id='keyword' value="Keyword" /> 
+<input type="radio" id='method1' name="method" value="113" checked="checked" /> Omit Q 
+<input type="radio" id='method2' name="method" value="106" /> Replace J with I
+</div>
+<div id="plain">
+<textarea id="plaintext" placeholder="Plaintext (tap to type)"></textarea>
+<br />
+<input type="button" id='encipher' value="Encipher &gt;&gt;" />
+</div>
+
+<div id="cipher">
+<textarea id="ciphertext" placeholder="Ciphertext (tap to type)"></textarea>
+<br />
+<input type="button" id='decipher' value=" &lt;&lt; Decipher" />
+</div>
+ 
+</body>
+</html>

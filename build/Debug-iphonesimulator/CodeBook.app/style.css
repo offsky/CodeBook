@@ -1,0 +1,18 @@
+body { background-image:url('back.png'); }
+
+#top { font-size: 1.4em; margin-bottom: 10px; background-color:#fff; border-radius: 3px; padding-left:5px;} 
+#top input{ font-size:1.0em; width:8em; }
+#top input[type="checkbox"]{ margin-left:20px; width:auto; }
+#top input[type="radio"]{ margin-left:20px; width:auto; }
+
+#plain {float:left; width:100%; margin-right:10px; text-align:center;}
+#cipher { float:right; width:100%; text-align:center;}
+textarea { width:100%; height:8em; font-size: 1.1em;}
+input[type="button"] { font-size:1.0em; }
+.thinking { background-color: #ccc; }
+
+@media all and (min-width: 440px){
+	textarea { height:14em;}
+	#plain { width:48%;}
+	#cipher { width:48%;}
+}

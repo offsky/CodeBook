@@ -1,0 +1,45 @@
+<html>
+<head>
+	<script src="jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script src="cipher.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">	
+
+	<script>
+		$(document).ready(function(){
+			$('#encipher').click(function() {
+				var rails = $('#rails').val();
+				var plain = $('#plaintext').val();
+				var cipher = railFence_encode(plain,rails);
+				
+				encipher(cipher);			
+			});
+			
+			$('#decipher').click(function() {
+				var rails = $('#rails').val();
+				var cipher = $('#ciphertext').val();
+				var plain = railFence_decode(cipher,rails);
+				
+				decipher(plain);
+			});
+		});
+	</script>
+
+</head>
+<body>
+<div id="top">
+Number of Rails: <input type="number" id='rails' min="1" max="25" value="3" />
+</div>
+<div id="plain">
+<textarea id="plaintext" placeholder="Plaintext (tap to type)"></textarea>
+<br />
+<input type="button" id='encipher' value="Encipher &gt;&gt;" />
+</div>
+
+<div id="cipher">
+<textarea id="ciphertext" placeholder="Ciphertext (tap to type)"></textarea>
+<br />
+<input type="button" id='decipher' value=" &lt;&lt; Decipher" />
+</div>
+ 
+</body>
+</html>
