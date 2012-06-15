@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "InfoViewController.h"
 
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
@@ -76,25 +77,27 @@
 	}
     self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 
-    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
-    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
-    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
-    [modalButton release];
+//    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
+//    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
+//    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
+//    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
+//    [modalButton release];
     
 	[self configureView];
 }
 
-- (void) infoButtonAction
+- (IBAction)infoButton:(id)sender
 {
     //TODO: Present infoFileName in a modal dialog
     
-    return; 
+//    return; 
     
     NSString	*infoFileName = [self.detailItem objectForKey:@"INFO"];
     
-    UIViewController *infoViewController = nil;
-    
+    InfoViewController *infoViewController = [[[InfoViewController alloc] initWithNibName:@"InfoView" bundle:nil] autorelease];
+	
+	infoViewController.detailItem = self.detailItem;
+
     [self presentModalViewController:infoViewController animated:YES];
 }
 
@@ -122,5 +125,7 @@
     [self.navigationItem setLeftBarButtonItem:nil animated:YES];
     self.masterPopoverController = nil;
 }
+
+
 
 @end
