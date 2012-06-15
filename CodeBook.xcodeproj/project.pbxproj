@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23343447158AF298003118FC /* cipher.js in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E7158A952F00D7DAEC /* cipher.js */; };
+		23343448158AF29B003118FC /* jquery-1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E9158A952F00D7DAEC /* jquery-1.7.2.min.js */; };
 		233A29F3158A952F00D7DAEC /* ascii.html in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E3158A952F00D7DAEC /* ascii.html */; };
 		233A29F4158A952F00D7DAEC /* ascii.html in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E3158A952F00D7DAEC /* ascii.html */; };
 		233A29F5158A952F00D7DAEC /* atbash.html in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E4158A952F00D7DAEC /* atbash.html */; };
@@ -307,6 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23343448158AF29B003118FC /* jquery-1.7.2.min.js in Resources */,
+				23343447158AF298003118FC /* cipher.js in Resources */,
+				233A2A11158A952F00D7DAEC /* trifid.html in Resources */,
 				B2C5B1D0158A8F6600606C97 /* InfoPlist.strings in Resources */,
 				B2C5B1D9158A8F6600606C97 /* MainStoryboard_iPhone.storyboard in Resources */,
 				B2C5B1DC158A8F6600606C97 /* MainStoryboard_iPad.storyboard in Resources */,
@@ -314,16 +319,15 @@
 				233A29F5158A952F00D7DAEC /* atbash.html in Resources */,
 				233A29F7158A952F00D7DAEC /* bifid.html in Resources */,
 				233A29F9158A952F00D7DAEC /* caesar.html in Resources */,
-				233A29FD158A952F00D7DAEC /* coltrans.html in Resources */,
 				233A2A01158A952F00D7DAEC /* keyword.html in Resources */,
 				233A2A03158A952F00D7DAEC /* morse.html in Resources */,
 				233A2A05158A952F00D7DAEC /* playfair.html in Resources */,
+				233A29FD158A952F00D7DAEC /* coltrans.html in Resources */,
 				233A2A07158A952F00D7DAEC /* polybius.html in Resources */,
 				233A2A09158A952F00D7DAEC /* railfence.html in Resources */,
 				233A2A0B158A952F00D7DAEC /* style.css in Resources */,
 				233A2A0D158A952F00D7DAEC /* tap.html in Resources */,
 				233A2A0F158A952F00D7DAEC /* tests.html in Resources */,
-				233A2A11158A952F00D7DAEC /* trifid.html in Resources */,
 				233A2A31158AA09800D7DAEC /* back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
