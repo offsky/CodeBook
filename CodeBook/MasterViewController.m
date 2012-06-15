@@ -48,32 +48,42 @@
 	self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
 
-    NSDictionary		*caesar = [NSDictionary dictionaryWithObjectsAndKeys:@"caesar.html", @"FILENAME", @"Caeser Cipher", @"TITLE", nil];
-    NSDictionary		*atbash = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash Cipher", @"TITLE", nil];
-	NSDictionary		*keyword = [NSDictionary dictionaryWithObjectsAndKeys:@"keyword.html", @"FILENAME", @"Keyword Cipher", @"TITLE", nil];
+    NSDictionary		*caesar = [NSDictionary dictionaryWithObjectsAndKeys:@"caesar.html", @"FILENAME", @"Caeser", @"TITLE", nil];
+    NSDictionary		*atbash = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash", @"TITLE", nil];
+	NSDictionary		*keyword = [NSDictionary dictionaryWithObjectsAndKeys:@"keyword.html", @"FILENAME", @"Keyword", @"TITLE", nil];
 	NSDictionary		*polybius = [NSDictionary dictionaryWithObjectsAndKeys:@"polybius.html", @"FILENAME", @"Polybius Square", @"TITLE", nil];
 
-    NSDictionary		*playfair = [NSDictionary dictionaryWithObjectsAndKeys:@"playfair.html", @"FILENAME", @"Playfair Cipher", @"TITLE", nil];
-	NSDictionary		*bifid = [NSDictionary dictionaryWithObjectsAndKeys:@"bifid.html", @"FILENAME", @"Bifid Cipher", @"TITLE", nil];
-	NSDictionary		*trifid = [NSDictionary dictionaryWithObjectsAndKeys:@"trifid.html", @"FILENAME", @"Trifid Cipher", @"TITLE", nil];
+    NSDictionary		*playfair = [NSDictionary dictionaryWithObjectsAndKeys:@"playfair.html", @"FILENAME", @"Playfair", @"TITLE", nil];
+	NSDictionary		*bifid = [NSDictionary dictionaryWithObjectsAndKeys:@"bifid.html", @"FILENAME", @"Bifid", @"TITLE", nil];
+	NSDictionary		*trifid = [NSDictionary dictionaryWithObjectsAndKeys:@"trifid.html", @"FILENAME", @"Trifid", @"TITLE", nil];
 
-    NSDictionary		*railfence = [NSDictionary dictionaryWithObjectsAndKeys:@"railfence.html", @"FILENAME", @"Rail Fence Cipher", @"TITLE", nil];
+    NSDictionary		*railfence = [NSDictionary dictionaryWithObjectsAndKeys:@"railfence.html", @"FILENAME", @"Rail Fence", @"TITLE", nil];
 	NSDictionary		*coltrans = [NSDictionary dictionaryWithObjectsAndKeys:@"coltrans.html", @"FILENAME", @"Columnar Transposition", @"TITLE", nil];
 
     NSDictionary		*morse = [NSDictionary dictionaryWithObjectsAndKeys:@"morse.html", @"FILENAME", @"Morse Code", @"TITLE", nil];
     NSDictionary		*tap = [NSDictionary dictionaryWithObjectsAndKeys:@"tap.html", @"FILENAME", @"Tap Code", @"TITLE", nil];
-    NSDictionary		*ascii = [NSDictionary dictionaryWithObjectsAndKeys:@"ascii.html", @"FILENAME", @"Ascii Code", @"TITLE", nil];
+    NSDictionary		*ascii = [NSDictionary dictionaryWithObjectsAndKeys:@"ascii.html", @"FILENAME", @"ASCII Code", @"TITLE", nil];
 
+    self.navigationController.navigationBar.tintColor = nil;
     
 	section1 = [[NSMutableArray alloc] initWithObjects:caesar, atbash, keyword, polybius, nil];
 	section2 = [[NSMutableArray alloc] initWithObjects:playfair, bifid, trifid, nil];
 	section3 = [[NSMutableArray alloc] initWithObjects:railfence, coltrans, nil];
 	section4 = [[NSMutableArray alloc] initWithObjects:morse, tap, ascii, nil];
+    
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    // Release any retained subviews of the main view.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBar.tintColor = nil;
+
+    [super viewWillAppear:animated];
     // Release any retained subviews of the main view.
 }
 

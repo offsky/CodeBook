@@ -60,6 +60,13 @@
 	}
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+    
+    [super viewWillAppear:animated];
+    // Release any retained subviews of the main view.
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -67,8 +74,21 @@
 	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
 		self.detailItem = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash", @"TITLE", nil];
 	}
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 
+    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
+    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
+    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
+    [modalButton release];
+    
 	[self configureView];
+}
+
+- (void) infoButtonAction
+{
+    
+    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
