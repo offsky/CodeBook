@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">	
+</head>
+<body>
+<div id="info">
+
+
+<p>The Playfair cipher encrypts pairs of letters (digraphs), instead of single letters. This is significantly harder to break since the frequency analysis used for simple substitution ciphers is considerably more difficult.</p>
+ 
+<p> Memorization of the keyword and 4 simple rules is all that is required to create the 5 by 5 table and use the cipher.</p>
+
+<pre style="float: right; margin:0px 0px 0px 10px; padding: 5px; border: 1px solid black;">
+K E Y W O
+R D A B C
+F G H I J
+L M N P S
+T U V X Z
+</pre>
+<p>The Playfair cipher uses a 5 by 5 table containing a key word or phrase. To generate the table, one would first fill in the spaces of the table with the letters of the keyword (dropping any duplicate letters), then fill the remaining spaces with the rest of the letters of the alphabet in order (to reduce the alphabet to fit you can either omit "Q" or replace "J" with "I"). In the example to the right, the keyword is "keyword".</p>
+
+<p>To encrypt a message, one would break the message into groups of 2 letters.  If there is a dangling letter at the end, we add an X.  For example. "Secret Message" becomes "SE CR ET ME SS AG EX". We now take each group and find them on the table. Noticing the location of the two letters in the table, we apply the following rules, in order.</p>
+
+<ol>
+
+<li>If both letters are the same, add an X between them. Encrypt the new pair, re-pair the remining letters and continue.</li>
+
+<li>If the letters appear on the same row of your table, replace them with the letters to their immediate right respectively, wrapping around to the left side of the row if necessary. For example, using the table above, the letter pair GJ would be encoded as HF.</li>
+
+<li>If the letters appear on the same column of your table, replace them with the letters immediately below, wrapping around to the top if necessary. For example, using the table above, the letter pair MD would be encoded as UG.</li>
+
+<li>If the letters are on different rows and columns, replace them with the letters on the same row respectively but at the other pair of corners of the rectangle defined by the original pair. The order is important - the first letter of the pair should be replaced first. For example, using the table above,  the letter pair EB would be encoded as WD.</li>
+
+</ol>
+
+<p>To decipher, ignore rule 1. In rules 2 and 3 shift up and left instead of down and right. Rule 4 remains the same. Once you are done, drop any extra Xs that don't make sense in the final message and locate any missing Qs or any Is that should be Js.</p>
+
+
+</div>
+</body>
+</html>
