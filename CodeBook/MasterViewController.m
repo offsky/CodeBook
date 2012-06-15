@@ -48,21 +48,21 @@
 	self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
 
-    NSDictionary		*caesar = [NSDictionary dictionaryWithObjectsAndKeys:@"caesar.html", @"FILENAME", @"Caeser", @"TITLE", @"caesar_info.html", @"INFO", nil];
-    NSDictionary		*atbash = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash", @"TITLE", @"atbash_info.html", @"INFO", nil];
-	NSDictionary		*keyword = [NSDictionary dictionaryWithObjectsAndKeys:@"keyword.html", @"FILENAME", @"Keyword", @"TITLE", @"keyword_info.html", @"INFO", nil];
-	NSDictionary		*polybius = [NSDictionary dictionaryWithObjectsAndKeys:@"polybius.html", @"FILENAME", @"Polybius Square", @"TITLE", @"polybius_info.html", @"INFO", nil];
+    NSDictionary		*caesar = [NSDictionary dictionaryWithObjectsAndKeys:@"caesar.html", @"FILENAME", @"Caesar", @"TITLE", @"caesar-info.html", @"INFO", nil];
+    NSDictionary		*atbash = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash", @"TITLE", @"atbash-info.html", @"INFO", nil];
+	NSDictionary		*keyword = [NSDictionary dictionaryWithObjectsAndKeys:@"keyword.html", @"FILENAME", @"Keyword", @"TITLE", @"keyword-info.html", @"INFO", nil];
+	NSDictionary		*polybius = [NSDictionary dictionaryWithObjectsAndKeys:@"polybius.html", @"FILENAME", @"Polybius Square", @"TITLE", @"polybius-info.html", @"INFO", nil];
 
-    NSDictionary		*playfair = [NSDictionary dictionaryWithObjectsAndKeys:@"playfair.html", @"FILENAME", @"Playfair", @"TITLE", @"playfair_info.html", @"INFO", nil];
-	NSDictionary		*bifid = [NSDictionary dictionaryWithObjectsAndKeys:@"bifid.html", @"FILENAME", @"Bifid", @"TITLE", @"bifid_info.html", @"INFO", nil];
-	NSDictionary		*trifid = [NSDictionary dictionaryWithObjectsAndKeys:@"trifid.html", @"FILENAME", @"Trifid", @"TITLE", @"trifid_info.html", @"INFO", nil];
+    NSDictionary		*playfair = [NSDictionary dictionaryWithObjectsAndKeys:@"playfair.html", @"FILENAME", @"Playfair", @"TITLE", @"playfair-info.html", @"INFO", nil];
+	NSDictionary		*bifid = [NSDictionary dictionaryWithObjectsAndKeys:@"bifid.html", @"FILENAME", @"Bifid", @"TITLE", @"bifid-info.html", @"INFO", nil];
+	NSDictionary		*trifid = [NSDictionary dictionaryWithObjectsAndKeys:@"trifid.html", @"FILENAME", @"Trifid", @"TITLE", @"trifid-info.html", @"INFO", nil];
 
-    NSDictionary		*railfence = [NSDictionary dictionaryWithObjectsAndKeys:@"railfence.html", @"FILENAME", @"Rail Fence", @"TITLE", @"railfence_info.html", @"INFO", nil];
-	NSDictionary		*coltrans = [NSDictionary dictionaryWithObjectsAndKeys:@"coltrans.html", @"FILENAME", @"Columnar Transposition", @"TITLE", @"coltrans_info.html", @"INFO", nil];
+    NSDictionary		*railfence = [NSDictionary dictionaryWithObjectsAndKeys:@"railfence.html", @"FILENAME", @"Rail Fence", @"TITLE", @"railfence-info.html", @"INFO", nil];
+	NSDictionary		*coltrans = [NSDictionary dictionaryWithObjectsAndKeys:@"coltrans.html", @"FILENAME", @"Columnar Transposition", @"TITLE", @"coltrans-info.html", @"INFO", nil];
 
-    NSDictionary		*morse = [NSDictionary dictionaryWithObjectsAndKeys:@"morse.html", @"FILENAME", @"Morse Code", @"TITLE", @"morse_info.html", @"INFO", nil];
-    NSDictionary		*tap = [NSDictionary dictionaryWithObjectsAndKeys:@"tap.html", @"FILENAME", @"Tap Code", @"TITLE", @"tap_info.html", @"INFO", nil];
-    NSDictionary		*ascii = [NSDictionary dictionaryWithObjectsAndKeys:@"ascii.html", @"FILENAME", @"ASCII Code", @"TITLE", @"ascii_info.html", @"INFO", nil];
+    NSDictionary		*morse = [NSDictionary dictionaryWithObjectsAndKeys:@"morse.html", @"FILENAME", @"Morse Code", @"TITLE", @"morse-info.html", @"INFO", nil];
+    NSDictionary		*tap = [NSDictionary dictionaryWithObjectsAndKeys:@"tap.html", @"FILENAME", @"Tap Code", @"TITLE", @"tap-info.html", @"INFO", nil];
+    NSDictionary		*ascii = [NSDictionary dictionaryWithObjectsAndKeys:@"ascii.html", @"FILENAME", @"ASCII Code", @"TITLE", @"ascii-info.html", @"INFO", nil];
 
     self.navigationController.navigationBar.tintColor = nil;
     
@@ -70,6 +70,10 @@
 	section2 = [[NSMutableArray alloc] initWithObjects:playfair, bifid, trifid, nil];
 	section3 = [[NSMutableArray alloc] initWithObjects:railfence, coltrans, nil];
 	section4 = [[NSMutableArray alloc] initWithObjects:morse, tap, ascii, nil];
+    
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        //TODO: Highlight section 0, row 0
+	}
     
 }
 

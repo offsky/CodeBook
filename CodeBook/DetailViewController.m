@@ -72,7 +72,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-		self.detailItem = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash", @"TITLE", nil];
+		self.detailItem = [NSDictionary dictionaryWithObjectsAndKeys:@"caesar.html", @"FILENAME", @"Caesar", @"TITLE", @"caesar-info.html", @"INFO", nil];
 	}
     self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 
@@ -87,8 +87,8 @@
 
 - (void) infoButtonAction
 {
-    
-    
+    NSString	*infoFileName = [self.detailItem objectForKey:@"INFO"];
+    //TODO: Present infoFileName in a modal dialog
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
