@@ -1,0 +1,49 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">	
+</head>
+<body>
+<div id="info">
+
+<p>The Bifid Cipher uses a Polybius Square to encipher a message in a way that makes it fairly difficult to decipher without knowing the secret.  This is because each letter in the ciphertext message is dependent upon two letters from the plaintext message.  As a result, frequency analysis of letters becomes much more difficult.</p>
+ 
+<table cellpadding="5"><tr>
+<td>&nbsp;</td><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+</tr><tr>
+<th>1</th><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td>
+</tr><tr>
+<th>2</th><td>F</td><td>G</td><td>H</td><td>I</td><td>K</td>
+</tr><tr>
+<th>3</th><td>L</td><td>M</td><td>N</td><td>O</td><td>P</td>
+</tr><tr>
+<th>4</th><td>Q</td><td>R</td><td>S</td><td>T</td><td>U</td>
+</tr><tr>
+<th>5</th><td>V</td><td>W</td><td>X</td><td>Y</td><td>Z</td>
+</tr></table>
+
+<p>The first step is to use the Polybius Square to convert the letters into numbers. We will be writing the numbers vertically below the message.</p>
+<br class="clear" />
+<pre>
+secret message
+411414 3144121
+353254 2533125
+</pre>
+
+<p>The numbers are now read off horizontally and grouped into pairs.</p>
+
+<pre>41 14 14 31 44 12 13 53 25 42 53 31 25</pre>
+
+<p>The Polybius Square is used again to convert the numbers back into letters which gives us our ciphertext.</p>
+
+<pre>qddltbcxkrxlk</pre>
+
+<p>Since the first letter in the plaintext is encoded into the first and middle letters of the ciphertext, the recipient of the message must have the entire message before they can decode it.  This means that if part of the ciphertext is discovered by a third party, it is unlikely that they will be able to crack it.</p>
+
+<p>To decipher a Bifid encrypted message, you first convert each letter into its corresponding number via the Polybius Square.  Now, divide the long string of numbers into two equal rows.  The digit in the top row and the digit in the bottom row will together reference the decoded letter in the Polybius Square.</p>
+
+<p>The Bifid Cipher can be taken into three dimensions to slightly increase the security of the message. This new cipher is called the Trifid Cipher.</p>
+
+
+</div>
+</body>
+</html>
