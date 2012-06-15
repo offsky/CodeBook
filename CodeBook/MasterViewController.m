@@ -48,21 +48,21 @@
 	self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
 
-    NSDictionary		*caesar = [NSDictionary dictionaryWithObjectsAndKeys:@"caesar.html", @"FILENAME", @"Caeser", @"TITLE", nil];
-    NSDictionary		*atbash = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash", @"TITLE", nil];
-	NSDictionary		*keyword = [NSDictionary dictionaryWithObjectsAndKeys:@"keyword.html", @"FILENAME", @"Keyword", @"TITLE", nil];
-	NSDictionary		*polybius = [NSDictionary dictionaryWithObjectsAndKeys:@"polybius.html", @"FILENAME", @"Polybius Square", @"TITLE", nil];
+    NSDictionary		*caesar = [NSDictionary dictionaryWithObjectsAndKeys:@"caesar.html", @"FILENAME", @"Caeser", @"TITLE", @"caesar_info.html", @"INFO", nil];
+    NSDictionary		*atbash = [NSDictionary dictionaryWithObjectsAndKeys:@"atbash.html", @"FILENAME", @"Atbash", @"TITLE", @"atbash_info.html", @"INFO", nil];
+	NSDictionary		*keyword = [NSDictionary dictionaryWithObjectsAndKeys:@"keyword.html", @"FILENAME", @"Keyword", @"TITLE", @"keyword_info.html", @"INFO", nil];
+	NSDictionary		*polybius = [NSDictionary dictionaryWithObjectsAndKeys:@"polybius.html", @"FILENAME", @"Polybius Square", @"TITLE", @"polybius_info.html", @"INFO", nil];
 
-    NSDictionary		*playfair = [NSDictionary dictionaryWithObjectsAndKeys:@"playfair.html", @"FILENAME", @"Playfair", @"TITLE", nil];
-	NSDictionary		*bifid = [NSDictionary dictionaryWithObjectsAndKeys:@"bifid.html", @"FILENAME", @"Bifid", @"TITLE", nil];
-	NSDictionary		*trifid = [NSDictionary dictionaryWithObjectsAndKeys:@"trifid.html", @"FILENAME", @"Trifid", @"TITLE", nil];
+    NSDictionary		*playfair = [NSDictionary dictionaryWithObjectsAndKeys:@"playfair.html", @"FILENAME", @"Playfair", @"TITLE", @"playfair_info.html", @"INFO", nil];
+	NSDictionary		*bifid = [NSDictionary dictionaryWithObjectsAndKeys:@"bifid.html", @"FILENAME", @"Bifid", @"TITLE", @"bifid_info.html", @"INFO", nil];
+	NSDictionary		*trifid = [NSDictionary dictionaryWithObjectsAndKeys:@"trifid.html", @"FILENAME", @"Trifid", @"TITLE", @"trifid_info.html", @"INFO", nil];
 
-    NSDictionary		*railfence = [NSDictionary dictionaryWithObjectsAndKeys:@"railfence.html", @"FILENAME", @"Rail Fence", @"TITLE", nil];
-	NSDictionary		*coltrans = [NSDictionary dictionaryWithObjectsAndKeys:@"coltrans.html", @"FILENAME", @"Columnar Transposition", @"TITLE", nil];
+    NSDictionary		*railfence = [NSDictionary dictionaryWithObjectsAndKeys:@"railfence.html", @"FILENAME", @"Rail Fence", @"TITLE", @"railfence_info.html", @"INFO", nil];
+	NSDictionary		*coltrans = [NSDictionary dictionaryWithObjectsAndKeys:@"coltrans.html", @"FILENAME", @"Columnar Transposition", @"TITLE", @"coltrans_info.html", @"INFO", nil];
 
-    NSDictionary		*morse = [NSDictionary dictionaryWithObjectsAndKeys:@"morse.html", @"FILENAME", @"Morse Code", @"TITLE", nil];
-    NSDictionary		*tap = [NSDictionary dictionaryWithObjectsAndKeys:@"tap.html", @"FILENAME", @"Tap Code", @"TITLE", nil];
-    NSDictionary		*ascii = [NSDictionary dictionaryWithObjectsAndKeys:@"ascii.html", @"FILENAME", @"ASCII Code", @"TITLE", nil];
+    NSDictionary		*morse = [NSDictionary dictionaryWithObjectsAndKeys:@"morse.html", @"FILENAME", @"Morse Code", @"TITLE", @"morse_info.html", @"INFO", nil];
+    NSDictionary		*tap = [NSDictionary dictionaryWithObjectsAndKeys:@"tap.html", @"FILENAME", @"Tap Code", @"TITLE", @"tap_info.html", @"INFO", nil];
+    NSDictionary		*ascii = [NSDictionary dictionaryWithObjectsAndKeys:@"ascii.html", @"FILENAME", @"ASCII Code", @"TITLE", @"ascii_info.html", @"INFO", nil];
 
     self.navigationController.navigationBar.tintColor = nil;
     
