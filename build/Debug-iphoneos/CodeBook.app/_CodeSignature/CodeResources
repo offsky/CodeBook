@@ -4,13 +4,49 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Default-Landscape@2x~ipad.png</key>
+		<data>
+		JBzI/DBH/z0RoM7up7qfFkstqIA=
+		</data>
+		<key>Default-Landscape~ipad.png</key>
+		<data>
+		y2LcibcVrd9Mns+cC0da7xBhjmk=
+		</data>
+		<key>Default-Portrait@2x~ipad.png</key>
+		<data>
+		IORoar0nQn02ARMPw1kvensSKdg=
+		</data>
+		<key>Default-Portrait~ipad.png</key>
+		<data>
+		jEWaAzOGwH4RAdAHxFqxhKGLIi8=
+		</data>
+		<key>Default.png</key>
+		<data>
+		0NqZ8fk/FjEY2cNjebMmMRFLkIU=
+		</data>
+		<key>Default@2x.png</key>
+		<data>
+		AYxaensdoDGEz8dyKF5owL5oyXA=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>ascii-info.html</key>
+		<data>
+		7os5kgMjRjEdsKFbSG7IK6rzB1M=
+		</data>
 		<key>ascii.html</key>
 		<data>
 		nSy2fn38V02uYOx65eDsscKcImU=
+		</data>
+		<key>ascii.png</key>
+		<data>
+		o/lUSQzCshvCKdzuxDrOXR126g8=
+		</data>
+		<key>atbash-info.html</key>
+		<data>
+		oh+bebvTrxAAhYF5xcly8crdnbg=
 		</data>
 		<key>atbash.html</key>
 		<data>
@@ -20,9 +56,17 @@
 		<data>
 		0Cmz5bizhJWUhZlFz3IjyEJ9wkY=
 		</data>
+		<key>bifid-info.html</key>
+		<data>
+		IvKYfgfJ2iJPT72poie1kpdKSUE=
+		</data>
 		<key>bifid.html</key>
 		<data>
 		nmgThln/6MRHKlhgr7PWneiZ000=
+		</data>
+		<key>caesar-info.html</key>
+		<data>
+		w0Y/uq+fL7wvv982wnIaTg1YugU=
 		</data>
 		<key>caesar.html</key>
 		<data>
@@ -31,6 +75,10 @@
 		<key>cipher.js</key>
 		<data>
 		2KR0Bq3OHK8s3TMxqV0WTg/xWK4=
+		</data>
+		<key>coltrans-info.html</key>
+		<data>
+		OmpzJATlnyKXYq6cNVMhIbNC+90=
 		</data>
 		<key>coltrans.html</key>
 		<data>
@@ -84,25 +132,65 @@
 		<data>
 		rQh1KSBKHuUtdhzRh8NO/Gm9htc=
 		</data>
+		<key>icon57.png</key>
+		<data>
+		d1iF7PCIwmoUJAuKSyxXUh4R1vQ=
+		</data>
+		<key>icon57@2x.png</key>
+		<data>
+		eTrfTnEAu5v4QdMSVWAAu/axXB4=
+		</data>
+		<key>icon72.png</key>
+		<data>
+		acDQidtZgfxztLSyfFNDYAcW7jc=
+		</data>
+		<key>icon72@2x.png</key>
+		<data>
+		6113J8hIQpOXQt4tBP+Qc5axNEY=
+		</data>
 		<key>jquery-1.7.2.min.js</key>
 		<data>
 		q80roTNI8XixcUG0RbyZ8ZF9R68=
+		</data>
+		<key>keyword-info.html</key>
+		<data>
+		gh4Cm1IxauSJVf7GAAefpXZiqpg=
 		</data>
 		<key>keyword.html</key>
 		<data>
 		P+UT6EX/FGUnhFpPKMWyT2Y0Y5Y=
 		</data>
+		<key>morse-info.html</key>
+		<data>
+		5Rbyma7ppbUpZ4QCPKJLL9x7p5o=
+		</data>
+		<key>morse.gif</key>
+		<data>
+		eTLyq5L7cE/F6DEaQuUddKhFFf4=
+		</data>
 		<key>morse.html</key>
 		<data>
 		/AdiPgQCXwB7ihukew8XD6/q/MQ=
+		</data>
+		<key>playfair-info.html</key>
+		<data>
+		x1n4vGph9cvYyyBKMTz7hRYQZi0=
 		</data>
 		<key>playfair.html</key>
 		<data>
 		k06u7kE7BZTu5/rd8Uw0ZHU8M00=
 		</data>
+		<key>polybius-info.html</key>
+		<data>
+		Pt6hvjmOa6JTSdxW0fo6sDMIpRc=
+		</data>
 		<key>polybius.html</key>
 		<data>
 		vVROq8OgKcUVwHkdWWHA/O3jwu4=
+		</data>
+		<key>railfence-info.html</key>
+		<data>
+		ARUMVS9RGfbV15HyzRvA5FJxm6U=
 		</data>
 		<key>railfence.html</key>
 		<data>
@@ -110,7 +198,11 @@
 		</data>
 		<key>style.css</key>
 		<data>
-		yTDoxsjeQYnOZo3e1tKk59/+Z7k=
+		Yt22yOl3ZjVjySBcTHWdBtmWTd0=
+		</data>
+		<key>tap-info.html</key>
+		<data>
+		+77iZI3VX+Y0DNQ7UoyyfH4mOVA=
 		</data>
 		<key>tap.html</key>
 		<data>
@@ -119,6 +211,10 @@
 		<key>tests.html</key>
 		<data>
 		CoGFYVNg1Ub5jVkmxnua9+bpMkw=
+		</data>
+		<key>trifid-info.html</key>
+		<data>
+		1QR0dlrIKJANxEs/Wj3vgshD0I0=
 		</data>
 		<key>trifid.html</key>
 		<data>

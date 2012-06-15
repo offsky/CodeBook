@@ -71,8 +71,8 @@
 	section3 = [[NSMutableArray alloc] initWithObjects:railfence, coltrans, nil];
 	section4 = [[NSMutableArray alloc] initWithObjects:morse, tap, ascii, nil];
     
-    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        //TODO: Highlight section 0, row 0
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {        
+        [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionNone];
 	}
     
 }

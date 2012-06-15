@@ -87,8 +87,15 @@
 
 - (void) infoButtonAction
 {
-    NSString	*infoFileName = [self.detailItem objectForKey:@"INFO"];
     //TODO: Present infoFileName in a modal dialog
+    
+    return; 
+    
+    NSString	*infoFileName = [self.detailItem objectForKey:@"INFO"];
+    
+    UIViewController *infoViewController = nil;
+    
+    [self presentModalViewController:infoViewController animated:YES];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
