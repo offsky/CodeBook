@@ -29,20 +29,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+
 	NSString	*fileName = [self.detailItem objectForKey:@"INFO"];
 	NSString *path = [[NSBundle mainBundle] bundlePath];
 	NSString *finalPath = [path stringByAppendingPathComponent:fileName];
 	
-	NSData* data = [[NSData alloc] initWithContentsOfFile:finalPath];
-	[self.webView loadData:data MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:path]];
+    NSData* data = [[NSData alloc] initWithContentsOfFile:finalPath];
+    [self.webView loadData:data MIMEType:@"text/html" textEncodingName:@"UTF-8" baseURL:[NSURL fileURLWithPath:path]];
 	[data release];
+    
+    //self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+
+    
+//	self.title = [self.detailItem objectForKey:@"TITLE"];
+//    self.navigationItem.title = @"A custom title";
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
 	[super viewDidAppear:animated];
-	self.title = [self.detailItem objectForKey:@"TITLE"];
 }
 
 - (void)viewDidUnload
@@ -53,7 +58,12 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+	    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+	} else {
+	    return YES;
+	}
+
 }
 
 - (IBAction)doneButton:(id)sender

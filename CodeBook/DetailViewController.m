@@ -77,28 +77,20 @@
 	}
     self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 
-//    UIButton* infoButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
-//    [infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
-//    UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
-//    [self.navigationItem setRightBarButtonItem:modalButton animated:YES];
-//    [modalButton release];
-    
 	[self configureView];
 }
 
 - (IBAction)infoButton:(id)sender
 {
-    //TODO: Present infoFileName in a modal dialog
-    
-//    return; 
-    
-    NSString	*infoFileName = [self.detailItem objectForKey:@"INFO"];
-    
     InfoViewController *infoViewController = [[[InfoViewController alloc] initWithNibName:@"InfoView" bundle:nil] autorelease];
 	
 	infoViewController.detailItem = self.detailItem;
-
-    [self presentModalViewController:infoViewController animated:YES];
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        infoViewController.modalPresentationStyle = UIModalPresentationFormSheet;
+        [self presentModalViewController:infoViewController animated:YES];
+    } else {
+        [self presentModalViewController:infoViewController animated:YES];
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
