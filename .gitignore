@@ -1,0 +1,46 @@
+# Mac OS X Finder
+.DS_Store
+
+# XCode (and ancestors) per-user config (very noisy, and not relevant)
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+.xcodeproj/ !*.xcodeproj/project.pbxproj
+.xcuserstate
+.pbxuser
+xcuserdata/
+
+# REALbasic
+.obsolete
+
+# Generated files
+VersionX-revision.h
+appledocs/
+
+# build products
+build/
+Builds*
+*.[oa]
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# special for the Toodledo project
+PersonalPreprocessorDefines.h
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+/html/
+/latex/
+/Toodledo.xcodeproj/jake.pbxuser
+Classes/PersonalPreprocessorDefines.h
