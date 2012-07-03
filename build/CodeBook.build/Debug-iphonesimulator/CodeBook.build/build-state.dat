@@ -1,1081 +1,0 @@
-TCodeBook
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Info.plist CodeBook/CodeBook-Info.plist
-cProcessPCH /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o /Users/jake/Documents/Programming/CodeBook/CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o /Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o /Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o /Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386
-cGenerateDSYMFile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app.dSYM /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook
-cCpResource CodeBook/HTML/jquery-1.7.2.min.js build/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-cCpResource CodeBook/HTML/cipher.js build/Debug-iphonesimulator/CodeBook.app/cipher.js
-cCpResource CodeBook/HTML/trifid.html build/Debug-iphonesimulator/CodeBook.app/trifid.html
-cCompileStoryboard /Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-cCopyStringsFile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings CodeBook/en.lproj/InfoPlist.strings
-cCompileStoryboard /Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-cCpResource CodeBook/HTML/ascii.html build/Debug-iphonesimulator/CodeBook.app/ascii.html
-cCpResource CodeBook/HTML/atbash.html build/Debug-iphonesimulator/CodeBook.app/atbash.html
-cCpResource CodeBook/HTML/bifid.html build/Debug-iphonesimulator/CodeBook.app/bifid.html
-cCpResource CodeBook/HTML/caesar.html build/Debug-iphonesimulator/CodeBook.app/caesar.html
-cCpResource CodeBook/HTML/keyword.html build/Debug-iphonesimulator/CodeBook.app/keyword.html
-cCpResource CodeBook/HTML/playfair.html build/Debug-iphonesimulator/CodeBook.app/playfair.html
-cCpResource CodeBook/HTML/morse.html build/Debug-iphonesimulator/CodeBook.app/morse.html
-cCpResource CodeBook/HTML/coltrans.html build/Debug-iphonesimulator/CodeBook.app/coltrans.html
-cCpResource CodeBook/HTML/polybius.html build/Debug-iphonesimulator/CodeBook.app/polybius.html
-cCpResource CodeBook/HTML/railfence.html build/Debug-iphonesimulator/CodeBook.app/railfence.html
-cCpResource CodeBook/HTML/style.css build/Debug-iphonesimulator/CodeBook.app/style.css
-cCpResource CodeBook/HTML/tap.html build/Debug-iphonesimulator/CodeBook.app/tap.html
-cCpResource CodeBook/HTML/back.png build/Debug-iphonesimulator/CodeBook.app/back.png
-cCpResource CodeBook/HTML/ascii.png build/Debug-iphonesimulator/CodeBook.app/ascii.png
-cCpResource CodeBook/HTML/ascii-info.html build/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-cCpResource CodeBook/HTML/atbash-info.html build/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-cCpResource CodeBook/HTML/bifid-info.html build/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-cCpResource CodeBook/HTML/caesar-info.html build/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-cCpResource CodeBook/HTML/coltrans-info.html build/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-cCpResource CodeBook/HTML/keyword-info.html build/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-cCpResource CodeBook/HTML/morse-info.html build/Debug-iphonesimulator/CodeBook.app/morse-info.html
-cCpResource CodeBook/HTML/playfair-info.html build/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-cCpResource CodeBook/HTML/morse.gif build/Debug-iphonesimulator/CodeBook.app/morse.gif
-cCpResource CodeBook/HTML/polybius-info.html build/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-cCpResource CodeBook/HTML/railfence-info.html build/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-cCpResource CodeBook/HTML/tap-info.html build/Debug-iphonesimulator/CodeBook.app/tap-info.html
-cCpResource CodeBook/HTML/trifid-info.html build/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-cCpResource icon57.png build/Debug-iphonesimulator/CodeBook.app/icon57.png
-cCpResource icon57@2x.png build/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-cCpResource icon72.png build/Debug-iphonesimulator/CodeBook.app/icon72.png
-cCpResource Default-Portrait~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-cCpResource Default.png build/Debug-iphonesimulator/CodeBook.app/Default.png
-cCpResource icon72@2x.png build/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-cCpResource Default@2x.png build/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-cCpResource Default-Portrait@2x~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-cCpResource Default-Landscape~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-cCpResource Default-Landscape@2x~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-cTouch /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F79C2DD0000000000000110
-t1333379805
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004F60F0340000000000244490
-t1331753012
-s2376848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004F60F0350000000000353830
-t1331753013
-s3487792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004F60F0390000000000905E40
-t1331753017
-s9461312
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.h
-c000000004FDA57E60000000000000119
-t1339709414
-s281
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m
-c000000004FDA57E60000000000000998
-t1339709414
-s2456
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/CodeBook-Prefix.pch
-c000000004FDA57E60000000000000139
-t1339709414
-s313
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.h
-c000000004FDA58B70000000000000171
-t1339709623
-s369
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m
-c000000004FDB60F30000000000000F7A
-t1339777267
-s3962
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/ascii-info.html
-c000000004FDB5C9F0000000000000235
-t1339776159
-s565
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/ascii.html
-c000000004FDA5A3B00000000000003B9
-t1339710011
-s953
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/ascii.png
-c000000004FDB5C9F0000000000000CF6
-t1339776159
-s3318
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/atbash-info.html
-c000000004FDB5C9F0000000000000251
-t1339776159
-s593
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/atbash.html
-c000000004FDA3ADB00000000000003B3
-t1339701979
-s947
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/back.png
-c000000004FDA6859000000000000049E
-t1339713625
-s1182
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/bifid-info.html
-c000000004FDB5C9F00000000000008AF
-t1339776159
-s2223
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/bifid.html
-c000000004FDA595D00000000000003B1
-t1339709789
-s945
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/caesar-info.html
-c000000004FDB5C9F000000000000046D
-t1339776159
-s1133
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/caesar.html
-c000000004FDB6057000000000000046E
-t1339777111
-s1134
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/cipher.js
-c000000004FDB60540000000000005FA2
-t1339777108
-s24482
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/coltrans-info.html
-c000000004FDB5C9F0000000000000827
-t1339776159
-s2087
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/coltrans.html
-c000000004FDB5C9F0000000000000593
-t1339776159
-s1427
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/jquery-1.7.2.min.js
-c000000004FDA2CC80000000000017278
-t1339698376
-s94840
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/keyword-info.html
-c000000004FDB5C9F0000000000000352
-t1339776159
-s850
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/keyword.html
-c000000004FDA3B360000000000000464
-t1339702070
-s1124
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/morse-info.html
-c000000004FDB5C9F00000000000003D5
-t1339776159
-s981
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/morse.gif
-c000000004FDB5C9F0000000000003946
-t1339776159
-s14662
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/morse.html
-c000000004FDA59F300000000000003B9
-t1339709939
-s953
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/playfair-info.html
-c000000004FDB5C9F0000000000000A80
-t1339776159
-s2688
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/playfair.html
-c000000004FDB5C9F00000000000005C7
-t1339776159
-s1479
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/polybius-info.html
-c000000004FDB5C9F0000000000000545
-t1339776159
-s1349
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/polybius.html
-c000000004FDA53BD00000000000003C3
-t1339708349
-s963
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/railfence-info.html
-c000000004FDB5C9F0000000000000497
-t1339776159
-s1175
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/railfence.html
-c000000004FDB5F84000000000000047E
-t1339776900
-s1150
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/style.css
-c000000004FDB619B00000000000003EC
-t1339777435
-s1004
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/tap-info.html
-c000000004FDB5C9F000000000000075D
-t1339776159
-s1885
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/tap.html
-c000000004FDA5A2100000000000003B5
-t1339709985
-s949
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/tests.html
-c000000004FD9A2B600000000000069CE
-t1339663030
-s27086
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/trifid-info.html
-c000000004FDB5C9F0000000000000957
-t1339776159
-s2391
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/trifid.html
-c000000004FDA599C00000000000003B3
-t1339709852
-s947
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.h
-c000000004FDA57E60000000000000155
-t1339709414
-s341
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m
-c000000004FDBAB320000000000001EBB
-t1339796274
-s7867
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/InfoPlist.strings
-c000000004FDA57E6000000000000002D
-t1339709414
-s45
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-c000000004FDA63D7000000000000258A
-t1339712471
-s9610
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-c000000004FDA61C40000000000001E24
-t1339711940
-s7716
-
-N/Users/jake/Documents/Programming/CodeBook/CodeBook/main.m
-c000000004FDA57E6000000000000014B
-t1339709414
-s331
-
-N/Users/jake/Documents/Programming/CodeBook/Default-Landscape@2x~ipad.png
-c000000004FDBA956000000000003F0F1
-t1339795798
-s258289
-
-N/Users/jake/Documents/Programming/CodeBook/Default-Landscape~ipad.png
-c000000004FDBAA4B000000000001B407
-t1339796043
-s111623
-
-N/Users/jake/Documents/Programming/CodeBook/Default-Portrait@2x~ipad.png
-c000000004FDBA9E0000000000003391E
-t1339795936
-s211230
-
-N/Users/jake/Documents/Programming/CodeBook/Default-Portrait~ipad.png
-c000000004FDBAA1A0000000000014619
-t1339795994
-s83481
-
-N/Users/jake/Documents/Programming/CodeBook/Default.png
-c000000004FDB86FC00000000000077C3
-t1339787004
-s30659
-
-N/Users/jake/Documents/Programming/CodeBook/Default@2x.png
-c000000004FDB86D9000000000000ED14
-t1339786969
-s60692
-
-N/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o
-t1339712965
-s62592
-
-N/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/CodeBook.LinkFileList
-c000000004FDA65C50000000000000227
-t1339712965
-s551
-
-N/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o
-t1339777442
-s62008
-
-N/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o
-t1339796274
-s70884
-
-N/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o
-t1339712965
-s3072
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app
-t1339796274
-s1598
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app.dSYM
-t1339796274
-s102
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook
-t1339796274
-s36020
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-t1339796058
-s258289
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-t1339796058
-s111623
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-t1339796058
-s211230
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-t1339796058
-s83481
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default.png
-t1339787039
-s30659
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-t1339787039
-s60692
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Info.plist
-t1339783426
-s1311
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/PkgInfo
-t1339783426
-s8
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-t1339783427
-s565
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/ascii.html
-t1339712965
-s953
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/ascii.png
-t1339783427
-s3318
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-t1339783427
-s593
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/atbash.html
-t1339712965
-s947
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/back.png
-t1339713820
-s1182
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-t1339783427
-s2223
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/bifid.html
-t1339712965
-s945
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-t1339783427
-s1133
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/caesar.html
-t1339777127
-s1134
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/cipher.js
-t1339777127
-s24482
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-t1339783427
-s2087
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/coltrans.html
-t1339776274
-s1427
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings
-t1339712965
-s42
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPad.storyboardc
-t1339712967
-s272
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPhone.storyboardc
-t1339712967
-s272
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon57.png
-t1339783427
-s4478
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-t1339783427
-s14805
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon72.png
-t1339783427
-s6805
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-t1339783427
-s20589
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-t1339776274
-s94840
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-t1339783427
-s850
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/keyword.html
-t1339712965
-s1124
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/morse-info.html
-t1339783427
-s981
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/morse.gif
-t1339783427
-s14662
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/morse.html
-t1339712965
-s953
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-t1339783427
-s2688
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/playfair.html
-t1339776274
-s1479
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-t1339783427
-s1349
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/polybius.html
-t1339712965
-s963
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-t1339783427
-s1175
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/railfence.html
-t1339776920
-s1150
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/style.css
-t1339777442
-s1004
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/tap-info.html
-t1339783427
-s1885
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/tap.html
-t1339712965
-s949
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/tests.html
-t1339712965
-s27086
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-t1339783427
-s2391
-
-N/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/trifid.html
-t1339712965
-s947
-
-N/Users/jake/Documents/Programming/CodeBook/icon57.png
-c000000004FDB761E000000000000117E
-t1339782686
-s4478
-
-N/Users/jake/Documents/Programming/CodeBook/icon57@2x.png
-c000000004FDB771500000000000039D5
-t1339782933
-s14805
-
-N/Users/jake/Documents/Programming/CodeBook/icon72.png
-c000000004FDB773C0000000000001A95
-t1339782972
-s6805
-
-N/Users/jake/Documents/Programming/CodeBook/icon72@2x.png
-c000000004FDB774C000000000000506D
-t1339782988
-s20589
-
-N/var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.pth
-t1339712965
-s4021272
-
-NCodeBook/CodeBook-Info.plist
-c000000004FDB78AC00000000000008A8
-t1339783340
-s2216
-
-CBuild AST from /Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m
-r0
-
-CBuild AST from /Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m
-r0
-
-CBuild AST from /Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m
-r0
-
-CBuild AST from /Users/jake/Documents/Programming/CodeBook/CodeBook/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies50ff8dcbe28bb541^5bcd8ecbe28bb541^-262"warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/cipher.js' of type sourcecode.javascript for architecture i386warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/jquery-1.7.2.min.js' of type sourcecode.javascript for architecture i3862(21%IDEActivityLogMessage2@125"Warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/cipher.js' of type sourcecode.javascript for architecture i386-361489099#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@135"Warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/jquery-1.7.2.min.js' of type sourcecode.javascript for architecture i386-361489099#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"B3D0A366-4628-4DFD-849B-E29D307C5B94-
-
-CCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o /Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361405765.814941
-e361405765.869023
-r1
-xCompileC
-xbuild/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o
-x/Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m48c0d0459d8ab541^af78de459d8ab541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m0000000000000000^3366"CompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jake/Documents/Programming/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/include -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator -include /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.dia -c /Users/jake/Documents/Programming/CodeBook/CodeBook/AppDelegate.m -o /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o36"230C7796-4E48-4148-BB70-F1370F03E4EC-
-
-CCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o /Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361470242.642571
-e361470242.712880
-r1
-xCompileC
-xbuild/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o
-x/Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m:90:15: warning: unused variable 'infoFileName' [-Wunused-variable]
-o    NSString    *infoFileName = [self.detailItem objectForKey:@"INFO"];
-o                 ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m240ea522998bb541^aa7db622998bb541^-254"/Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m:90:15: warning: unused variable 'infoFileName' [-Wunused-variable]    NSString    *infoFileName = [self.detailItem objectForKey:@"INFO"];                 ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@30"Unused variable 'infoFileName'-361470242#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m0000000000000000^89#14#89#14#2666#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m0000000000000000^3420"CompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jake/Documents/Programming/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/include -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator -include /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.dia -c /Users/jake/Documents/Programming/CodeBook/CodeBook/DetailViewController.m -o /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o36"DA884E9E-0F12-4460-9B20-00988AC92F50-
-
-CCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o /Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361489074.469539
-e361489074.641168
-r1
-xCompileC
-xbuild/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o
-x/Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m875178b2e28bb541^4a25a4b2e28bb541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m0000000000000000^3420"CompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jake/Documents/Programming/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/include -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator -include /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.d --serialize-diagnostics /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.dia -c /Users/jake/Documents/Programming/CodeBook/CodeBook/MasterViewController.m -o /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o36"4D408A24-DDF2-406F-AFF8-B2D82CFCFD6E-
-
-CCompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o /Users/jake/Documents/Programming/CodeBook/CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361405765.814922
-e361405765.840057
-r1
-xCompileC
-xbuild/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o
-x/Users/jake/Documents/Programming/CodeBook/CodeBook/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/jake/Documents/Programming/CodeBook/CodeBook/main.m05c0d0459d8ab541^300dd7459d8ab541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/main.m0000000000000000^3324"CompileC build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jake/Documents/Programming/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/include -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator -include /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.dia -c /Users/jake/Documents/Programming/CodeBook/CodeBook/main.m -o /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o36"129207D0-E633-4E9B-8B4A-3F125685D4A3-
-
-CCompileStoryboard /Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-s361405765.950569
-e361405767.276888
-r1
-xCompileStoryboard
-x/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPad.storyboarda167f3459d8ab541^dfe146479d8ab541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^991"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/jake/Documents/Programming/CodeBook    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"40923E00-7441-43D8-9F94-4561FA200C17-
-
-CCompileStoryboard /Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-s361405765.950154
-e361405767.253257
-r1
-xCompileStoryboard
-x/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPhone.storyboard514ff3459d8ab541^d8d540479d8ab541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^997"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/jake/Documents/Programming/CodeBook    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"B000F1EA-3B99-4AB9-B07C-D158E464F3B4-
-
-CCopyStringsFile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings CodeBook/en.lproj/InfoPlist.strings
-s361405765.950126
-e361405765.954227
-r1
-xCopyStringsFile
-x/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings
-xCodeBook/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy CodeBook/en.lproj/InfoPlist.strings054df3459d8ab541^bf48f4459d8ab541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/en.lproj/InfoPlist.strings0000000000000000^649"CopyStringsFile build/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings CodeBook/en.lproj/InfoPlist.strings    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/en.lproj -- CodeBook/en.lproj/InfoPlist.strings36"1203C2B0-5A57-4219-A40C-3CD00C536AE0-
-
-CCpResource CodeBook/HTML/ascii-info.html build/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-s361476227.024990
-e361476227.031003
-r1
-xCpResource
-xCodeBook/HTML/ascii-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/CodeBook.app/ascii-info.html68790683b08bb541^59f70783b08bb541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/ascii-info.html000000000080d041^779"CpResource CodeBook/HTML/ascii-info.html build/Debug-iphonesimulator/CodeBook.app/ascii-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/ascii-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"34F5E9FB-7A19-4796-9F36-C09E31EB9EE7-
-
-CCpResource CodeBook/HTML/ascii.html build/Debug-iphonesimulator/CodeBook.app/ascii.html
-s361405765.951944
-e361405765.957366
-r1
-xCpResource
-xCodeBook/HTML/ascii.html
-xbuild/Debug-iphonesimulator/CodeBook.app/ascii.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/CodeBook.app/ascii.html22c6f3459d8ab541^3316f5459d8ab541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/ascii.html000000000080d041^764"CpResource CodeBook/HTML/ascii.html build/Debug-iphonesimulator/CodeBook.app/ascii.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/ascii.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"33182C06-EAC3-469A-903C-5914D004AACA-
-
-CCpResource CodeBook/HTML/ascii.png build/Debug-iphonesimulator/CodeBook.app/ascii.png
-s361476227.025055
-e361476227.030962
-r1
-xCpResource
-xCodeBook/HTML/ascii.png
-xbuild/Debug-iphonesimulator/CodeBook.app/ascii.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/CodeBook.app/ascii.pngfa7a0683b08bb541^f2ef0783b08bb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/ascii.png000000000080d041^761"CpResource CodeBook/HTML/ascii.png build/Debug-iphonesimulator/CodeBook.app/ascii.png    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/ascii.png /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"07C1D7FE-10A0-46E7-BC6F-ED105A9120CA-
-
-CCpResource CodeBook/HTML/atbash-info.html build/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-s361476227.025505
-e361476227.031566
-r1
-xCpResource
-xCodeBook/HTML/atbash-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/CodeBook.app/atbash-info.htmlee940683b08bb541^22170883b08bb541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/atbash-info.html000000000080d041^782"CpResource CodeBook/HTML/atbash-info.html build/Debug-iphonesimulator/CodeBook.app/atbash-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/atbash-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"092E6F6F-3855-47C2-B944-49CD3545DA0E-
-
-CCpResource CodeBook/HTML/atbash.html build/Debug-iphonesimulator/CodeBook.app/atbash.html
-s361405765.951956
-e361405765.956893
-r1
-xCpResource
-xCodeBook/HTML/atbash.html
-xbuild/Debug-iphonesimulator/CodeBook.app/atbash.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/CodeBook.app/atbash.html2ac8f3459d8ab541^a9f7f4459d8ab541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/atbash.html000000000080d041^767"CpResource CodeBook/HTML/atbash.html build/Debug-iphonesimulator/CodeBook.app/atbash.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/atbash.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"302E11B3-303B-40CD-8670-4AEE568F9DF4-
-
-CCpResource CodeBook/HTML/back.png build/Debug-iphonesimulator/CodeBook.app/back.png
-s361406620.309269
-e361406620.311886
-r1
-xCpResource
-xCodeBook/HTML/back.png
-xbuild/Debug-iphonesimulator/CodeBook.app/back.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/CodeBook.app/back.pngd53c4f9ca08ab541^5fee4f9ca08ab541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/back.png000000000080d041^758"CpResource CodeBook/HTML/back.png build/Debug-iphonesimulator/CodeBook.app/back.png    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/back.png /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"564632B3-D86C-4C61-B040-05B627B9D205-
-
-CCpResource CodeBook/HTML/bifid-info.html build/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-s361476227.026091
-e361476227.031972
-r1
-xCpResource
-xCodeBook/HTML/bifid-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/CodeBook.app/bifid-info.html7bbe0683b08bb541^51330883b08bb541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/bifid-info.html000000000080d041^779"CpResource CodeBook/HTML/bifid-info.html build/Debug-iphonesimulator/CodeBook.app/bifid-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/bifid-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"1D0DF94C-8E80-42AD-B546-39A40FFE9549-
-
-CCpResource CodeBook/HTML/bifid.html build/Debug-iphonesimulator/CodeBook.app/bifid.html
-s361405765.952310
-e361405765.958958
-r1
-xCpResource
-xCodeBook/HTML/bifid.html
-xbuild/Debug-iphonesimulator/CodeBook.app/bifid.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/CodeBook.app/bifid.htmla9d9f3459d8ab541^fe7ef5459d8ab541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/bifid.html000000000080d041^764"CpResource CodeBook/HTML/bifid.html build/Debug-iphonesimulator/CodeBook.app/bifid.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/bifid.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"523AE8A9-2E33-46F6-9375-B486FB7DDCB6-
-
-CCpResource CodeBook/HTML/caesar-info.html build/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-s361476227.026153
-e361476227.036092
-r1
-xCpResource
-xCodeBook/HTML/caesar-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/CodeBook.app/caesar-info.html11c30683b08bb541^603e0983b08bb541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/caesar-info.html000000000080d041^782"CpResource CodeBook/HTML/caesar-info.html build/Debug-iphonesimulator/CodeBook.app/caesar-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/caesar-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"C9C3BE4B-06BE-4086-93D4-B877DB659694-
-
-CCpResource CodeBook/HTML/caesar.html build/Debug-iphonesimulator/CodeBook.app/caesar.html
-s361469927.340655
-e361469927.343187
-r1
-xCpResource
-xCodeBook/HTML/caesar.html
-xbuild/Debug-iphonesimulator/CodeBook.app/caesar.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/CodeBook.app/caesar.html144257e7978bb541^a2445be7978bb541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/caesar.html0000000000000000^767"CpResource CodeBook/HTML/caesar.html build/Debug-iphonesimulator/CodeBook.app/caesar.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/caesar.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"2FA083B6-C087-4D82-9F8C-2650E2D32EA3-
-
-CCpResource CodeBook/HTML/cipher.js build/Debug-iphonesimulator/CodeBook.app/cipher.js
-s361469927.339263
-e361469927.341423
-r1
-xCpResource
-xCodeBook/HTML/cipher.js
-xbuild/Debug-iphonesimulator/CodeBook.app/cipher.js
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/CodeBook.app/cipher.jsf7e756e7978bb541^4f3c5be7978bb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/cipher.js0000000000000000^761"CpResource CodeBook/HTML/cipher.js build/Debug-iphonesimulator/CodeBook.app/cipher.js    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/cipher.js /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"889D7C84-4646-4005-BA8E-231B4B99C4AC-
-
-CCpResource CodeBook/HTML/coltrans-info.html build/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-s361476227.026563
-e361476227.036582
-r1
-xCpResource
-xCodeBook/HTML/coltrans-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/CodeBook.app/coltrans-info.htmlf9db0683b08bb541^2d5d0983b08bb541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/coltrans-info.html000000000080d041^788"CpResource CodeBook/HTML/coltrans-info.html build/Debug-iphonesimulator/CodeBook.app/coltrans-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/coltrans-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"C63B3D4D-BD21-4C4A-9F0B-747D68EBABD6-
-
-CCpResource CodeBook/HTML/coltrans.html build/Debug-iphonesimulator/CodeBook.app/coltrans.html
-s361469074.323569
-e361469074.328135
-r1
-xCpResource
-xCodeBook/HTML/coltrans.html
-xbuild/Debug-iphonesimulator/CodeBook.app/coltrans.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/CodeBook.app/coltrans.html6cec5292948bb541^a3015492948bb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/coltrans.html0000000000000000^773"CpResource CodeBook/HTML/coltrans.html build/Debug-iphonesimulator/CodeBook.app/coltrans.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/coltrans.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"22B86EE5-E4F9-406E-A7E2-D8F7CECAC42B-
-
-CCpResource CodeBook/HTML/jquery-1.7.2.min.js build/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-s361469074.321897
-e361469074.324351
-r1
-xCpResource
-xCodeBook/HTML/jquery-1.7.2.min.js
-xbuild/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js88815292948bb541^74095392948bb541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js000000000080d041^791"CpResource CodeBook/HTML/jquery-1.7.2.min.js build/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/jquery-1.7.2.min.js /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"12A14B93-88F7-4A47-A504-8A3458613B34-
-
-CCpResource CodeBook/HTML/keyword-info.html build/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-s361476227.026587
-e361476227.043447
-r1
-xCpResource
-xCodeBook/HTML/keyword-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/CodeBook.app/keyword-info.html72df0683b08bb541^251f0b83b08bb541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/keyword-info.html000000000080d041^785"CpResource CodeBook/HTML/keyword-info.html build/Debug-iphonesimulator/CodeBook.app/keyword-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/keyword-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"BB9FD93D-9AFF-4636-B333-A325E8C1F07F-
-
-CCpResource CodeBook/HTML/keyword.html build/Debug-iphonesimulator/CodeBook.app/keyword.html
-s361405765.955406
-e361405765.961980
-r1
-xCpResource
-xCodeBook/HTML/keyword.html
-xbuild/Debug-iphonesimulator/CodeBook.app/keyword.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/CodeBook.app/keyword.htmlbaa2f4459d8ab541^8045f6459d8ab541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/keyword.html000000000080d041^770"CpResource CodeBook/HTML/keyword.html build/Debug-iphonesimulator/CodeBook.app/keyword.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/keyword.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"77DCE165-41AE-44B9-B815-7C95E88C88DA-
-
-CCpResource CodeBook/HTML/morse-info.html build/Debug-iphonesimulator/CodeBook.app/morse-info.html
-s361476227.026649
-e361476227.043960
-r1
-xCpResource
-xCodeBook/HTML/morse-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/morse-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/CodeBook.app/morse-info.html0de30683b08bb541^6c410b83b08bb541^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/morse-info.html000000000080d041^779"CpResource CodeBook/HTML/morse-info.html build/Debug-iphonesimulator/CodeBook.app/morse-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/morse-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"287D7577-BF61-421C-AC3E-9C9DDF20538C-
-
-CCpResource CodeBook/HTML/morse.gif build/Debug-iphonesimulator/CodeBook.app/morse.gif
-s361476227.034156
-e361476227.045250
-r1
-xCpResource
-xCodeBook/HTML/morse.gif
-xbuild/Debug-iphonesimulator/CodeBook.app/morse.gif
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/CodeBook.app/morse.gif8cdb0883b08bb541^4a960b83b08bb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/morse.gif000000000080d041^761"CpResource CodeBook/HTML/morse.gif build/Debug-iphonesimulator/CodeBook.app/morse.gif    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/morse.gif /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"2E9BD94F-7D87-4BD7-B2FE-01F7C40162FF-
-
-CCpResource CodeBook/HTML/morse.html build/Debug-iphonesimulator/CodeBook.app/morse.html
-s361405765.958125
-e361405765.964627
-r1
-xCpResource
-xCodeBook/HTML/morse.html
-xbuild/Debug-iphonesimulator/CodeBook.app/morse.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/CodeBook.app/morse.html7d5ef5459d8ab541^84f2f6459d8ab541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/morse.html000000000080d041^764"CpResource CodeBook/HTML/morse.html build/Debug-iphonesimulator/CodeBook.app/morse.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/morse.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"A233B1BA-CF9C-4E5F-88EA-B192078CF332-
-
-CCpResource CodeBook/HTML/playfair-info.html build/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-s361476227.034307
-e361476227.046733
-r1
-xCpResource
-xCodeBook/HTML/playfair-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/CodeBook.app/playfair-info.html54e40883b08bb541^f5f60b83b08bb541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/playfair-info.html000000000080d041^788"CpResource CodeBook/HTML/playfair-info.html build/Debug-iphonesimulator/CodeBook.app/playfair-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/playfair-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"43D85B99-37B5-433C-BD9F-102C529EB0CD-
-
-CCpResource CodeBook/HTML/playfair.html build/Debug-iphonesimulator/CodeBook.app/playfair.html
-s361469074.323555
-e361469074.326474
-r1
-xCpResource
-xCodeBook/HTML/playfair.html
-xbuild/Debug-iphonesimulator/CodeBook.app/playfair.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/CodeBook.app/playfair.htmle2e85292948bb541^75945392948bb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/playfair.html0000000000000000^773"CpResource CodeBook/HTML/playfair.html build/Debug-iphonesimulator/CodeBook.app/playfair.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/playfair.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"8C69B9FF-207D-4ED5-9582-821842B4E1BA-
-
-CCpResource CodeBook/HTML/polybius-info.html build/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-s361476227.034340
-e361476227.047886
-r1
-xCpResource
-xCodeBook/HTML/polybius-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/CodeBook.app/polybius-info.html7bf60883b08bb541^ea420c83b08bb541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/polybius-info.html000000000080d041^788"CpResource CodeBook/HTML/polybius-info.html build/Debug-iphonesimulator/CodeBook.app/polybius-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/polybius-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"E5645828-D02C-4329-A104-C39A9C11AF0C-
-
-CCpResource CodeBook/HTML/polybius.html build/Debug-iphonesimulator/CodeBook.app/polybius.html
-s361405765.960139
-e361405765.965394
-r1
-xCpResource
-xCodeBook/HTML/polybius.html
-xbuild/Debug-iphonesimulator/CodeBook.app/polybius.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/CodeBook.app/polybius.html6de1f5459d8ab541^1c25f7459d8ab541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/polybius.html000000000080d041^773"CpResource CodeBook/HTML/polybius.html build/Debug-iphonesimulator/CodeBook.app/polybius.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/polybius.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"7695B34D-85F4-45C1-8394-73F3C79AC73E-
-
-CCpResource CodeBook/HTML/railfence-info.html build/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-s361476227.035580
-e361476227.049299
-r1
-xCpResource
-xCodeBook/HTML/railfence-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/CodeBook.app/railfence-info.html8b340983b08bb541^d89f0c83b08bb541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/railfence-info.html000000000080d041^791"CpResource CodeBook/HTML/railfence-info.html build/Debug-iphonesimulator/CodeBook.app/railfence-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/railfence-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"5BF143F5-CFA6-44A7-A317-86A32F80AA95-
-
-CCpResource CodeBook/HTML/railfence.html build/Debug-iphonesimulator/CodeBook.app/railfence.html
-s361469720.704145
-e361469720.709283
-r1
-xCpResource
-xCodeBook/HTML/railfence.html
-xbuild/Debug-iphonesimulator/CodeBook.app/railfence.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/CodeBook.app/railfence.html3f52b418978bb541^d593b518978bb541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/railfence.html0000000000000000^776"CpResource CodeBook/HTML/railfence.html build/Debug-iphonesimulator/CodeBook.app/railfence.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/railfence.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"16454716-1D79-4025-B6A7-729173C641A8-
-
-CCpResource CodeBook/HTML/style.css build/Debug-iphonesimulator/CodeBook.app/style.css
-s361470242.804924
-e361470242.807715
-r1
-xCpResource
-xCodeBook/HTML/style.css
-xbuild/Debug-iphonesimulator/CodeBook.app/style.css
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/CodeBook.app/style.css5c1fce22998bb541^00c9dc22998bb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/style.css0000000000000000^761"CpResource CodeBook/HTML/style.css build/Debug-iphonesimulator/CodeBook.app/style.css    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/style.css /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"71012E40-9787-48D5-8EDE-D2E2908C8B15-
-
-CCpResource CodeBook/HTML/tap-info.html build/Debug-iphonesimulator/CodeBook.app/tap-info.html
-s361476227.037263
-e361476227.049680
-r1
-xCpResource
-xCodeBook/HTML/tap-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/tap-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/CodeBook.app/tap-info.html43200b83b08bb541^d0b80c83b08bb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/tap-info.html000000000080d041^773"CpResource CodeBook/HTML/tap-info.html build/Debug-iphonesimulator/CodeBook.app/tap-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/tap-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"5634B967-86EF-4AD8-90F5-A5960E216D26-
-
-CCpResource CodeBook/HTML/tap.html build/Debug-iphonesimulator/CodeBook.app/tap.html
-s361405765.963138
-e361405765.970027
-r1
-xCpResource
-xCodeBook/HTML/tap.html
-xbuild/Debug-iphonesimulator/CodeBook.app/tap.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/CodeBook.app/tap.html69a7f6459d8ab541^6954f8459d8ab541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/tap.html000000000080d041^758"CpResource CodeBook/HTML/tap.html build/Debug-iphonesimulator/CodeBook.app/tap.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/tap.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"66A984A0-70B1-42DA-8170-54F48904284C-
-
-CCpResource CodeBook/HTML/tests.html build/Debug-iphonesimulator/CodeBook.app/tests.html
-s361405765.963143
-e361405765.969570
-r1
-xCpResource
-xCodeBook/HTML/tests.html
-xbuild/Debug-iphonesimulator/CodeBook.app/tests.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/CodeBook.app/tests.html12a0f6459d8ab541^5935f8459d8ab541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/tests.html000000000080d041^764"CpResource CodeBook/HTML/tests.html build/Debug-iphonesimulator/CodeBook.app/tests.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/tests.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"60B3C4E8-8B46-4E9F-A601-C52E8505A593-
-
-CCpResource CodeBook/HTML/trifid-info.html build/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-s361476227.037271
-e361476227.051461
-r1
-xCpResource
-xCodeBook/HTML/trifid-info.html
-xbuild/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/CodeBook.app/trifid-info.htmlf6250b83b08bb541^132d0d83b08bb541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/trifid-info.html000000000080d041^782"CpResource CodeBook/HTML/trifid-info.html build/Debug-iphonesimulator/CodeBook.app/trifid-info.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/trifid-info.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"5FA23364-4E95-4077-ADBF-1C8D5A53A24D-
-
-CCpResource CodeBook/HTML/trifid.html build/Debug-iphonesimulator/CodeBook.app/trifid.html
-s361405765.965745
-e361405765.978097
-r1
-xCpResource
-xCodeBook/HTML/trifid.html
-xbuild/Debug-iphonesimulator/CodeBook.app/trifid.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/CodeBook.app/trifid.htmlbf49f7459d8ab541^f470fa459d8ab541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/trifid.html000000000080d041^767"CpResource CodeBook/HTML/trifid.html build/Debug-iphonesimulator/CodeBook.app/trifid.html    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/CodeBook/HTML/trifid.html /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"660AE39E-4834-4BF1-B559-F1709362AA8F-
-
-CCpResource Default-Landscape@2x~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-s361488858.080310
-e361488858.087605
-r1
-xCpResource
-xDefault-Landscape@2x~ipad.png
-xbuild/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.pngc1a814dae18bb541^b03c18dae18bb541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png0000000000000000^799"CpResource "Default-Landscape@2x~ipad.png" "build/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png"    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/jake/Documents/Programming/CodeBook/Default-Landscape@2x~ipad.png" /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"0741F5A3-1455-4252-9DA5-705D495F06EC-
-
-CCpResource Default-Landscape~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-s361488858.076961
-e361488858.084941
-r1
-xCpResource
-xDefault-Landscape~ipad.png
-xbuild/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png6e8914dae18bb541^1e3318dae18bb541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png0000000000000000^790"CpResource "Default-Landscape~ipad.png" "build/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png"    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/jake/Documents/Programming/CodeBook/Default-Landscape~ipad.png" /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"565D428F-14DF-4595-AA88-DDA526B9EE05-
-
-CCpResource Default-Portrait@2x~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-s361488858.076912
-e361488858.084622
-r1
-xCpResource
-xDefault-Portrait@2x~ipad.png
-xbuild/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.pngba8714dae18bb541^062d18dae18bb541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png0000000000000000^796"CpResource "Default-Portrait@2x~ipad.png" "build/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png"    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/jake/Documents/Programming/CodeBook/Default-Portrait@2x~ipad.png" /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"C18695FC-29FB-4E73-BF2A-39A75A54E7B2-
-
-CCpResource Default-Portrait~ipad.png build/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-s361488858.076009
-e361488858.085760
-r1
-xCpResource
-xDefault-Portrait~ipad.png
-xbuild/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png098914dae18bb541^3b3818dae18bb541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png0000000000000000^787"CpResource "Default-Portrait~ipad.png" "build/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png"    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/jake/Documents/Programming/CodeBook/Default-Portrait~ipad.png" /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"BF45C784-8D10-47B4-859A-CA84AF13F4C8-
-
-CCpResource Default.png build/Debug-iphonesimulator/CodeBook.app/Default.png
-s361479839.910763
-e361479839.913960
-r1
-xCpResource
-xDefault.png
-xbuild/Debug-iphonesimulator/CodeBook.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/CodeBook.app/Default.png6c3fe99fbe8bb541^fe9ded9fbe8bb541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default.png0000000000000000^739"CpResource Default.png build/Debug-iphonesimulator/CodeBook.app/Default.png    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/Default.png /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"BA03DF63-87DC-4CB9-8594-F02995BEA181-
-
-CCpResource Default@2x.png build/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-s361479839.910833
-e361479839.914264
-r1
-xCpResource
-xDefault@2x.png
-xbuild/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/CodeBook.app/Default@2x.png8d43e99fbe8bb541^90a3ed9fbe8bb541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Default@2x.png0000000000000000^754"CpResource "Default@2x.png" "build/Debug-iphonesimulator/CodeBook.app/Default@2x.png"    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/jake/Documents/Programming/CodeBook/Default@2x.png" /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"AFADDF27-73AF-4DF3-B6D7-67C2F1FF9CEA-
-
-CCpResource icon57.png build/Debug-iphonesimulator/CodeBook.app/icon57.png
-s361476227.044798
-e361476227.052456
-r1
-xCpResource
-xicon57.png
-xbuild/Debug-iphonesimulator/CodeBook.app/icon57.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/CodeBook.app/icon57.png1a860b83b08bb541^336f0d83b08bb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon57.png000000000080d041^736"CpResource icon57.png build/Debug-iphonesimulator/CodeBook.app/icon57.png    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/icon57.png /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"DC8682F6-D058-4877-87AD-562E1F1F1C61-
-
-CCpResource icon57@2x.png build/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-s361476227.044823
-e361476227.053196
-r1
-xCpResource
-xicon57@2x.png
-xbuild/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/CodeBook.app/icon57@2x.png658c0b83b08bb541^1b9f0d83b08bb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon57@2x.png000000000080d041^751"CpResource "icon57@2x.png" "build/Debug-iphonesimulator/CodeBook.app/icon57@2x.png"    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/jake/Documents/Programming/CodeBook/icon57@2x.png" /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"55C2CA43-FD19-41A9-BBD4-AC7502188F10-
-
-CCpResource icon72.png build/Debug-iphonesimulator/CodeBook.app/icon72.png
-s361476227.046397
-e361476227.055056
-r1
-xCpResource
-xicon72.png
-xbuild/Debug-iphonesimulator/CodeBook.app/icon72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/CodeBook.app/icon72.png96ed0b83b08bb541^8e930e83b08bb541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon72.png000000000080d041^736"CpResource icon72.png build/Debug-iphonesimulator/CodeBook.app/icon72.png    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/jake/Documents/Programming/CodeBook/icon72.png /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"C8B6FD66-6F43-4854-AB06-4493106696A0-
-
-CCpResource icon72@2x.png build/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-s361476227.047829
-e361476227.055508
-r1
-xCpResource
-xicon72@2x.png
-xbuild/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/CodeBook.app/icon72@2x.png984d0c83b08bb541^e9990e83b08bb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/icon72@2x.png000000000080d041^751"CpResource "icon72@2x.png" "build/Debug-iphonesimulator/CodeBook.app/icon72@2x.png"    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/jake/Documents/Programming/CodeBook/icon72@2x.png" /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"D8A376EA-67C5-4ECB-875A-E0D3117C42AF-
-
-CGenerateDSYMFile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app.dSYM /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook
-s361489074.849281
-e361489074.888875
-r1
-xGenerateDSYMFile
-x/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app.dSYM
-x/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Generating /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app.dSYMa180d9b2e28bb541^938de3b2e28bb541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app.dSYM/0000000000000000^714"GenerateDSYMFile build/Debug-iphonesimulator/CodeBook.app.dSYM build/Debug-iphonesimulator/CodeBook.app/CodeBook    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook -o /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app.dSYM36"31ED9061-E365-439C-A155-27C7B5F1D553-
-
-CLd /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386
-s361489074.649301
-e361489074.842542
-r1
-xLd
-x/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBookab5ea6b2e28bb541^c93ad8b2e28bb541^---0#0#0#--1239"Ld build/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386    cd /Users/jake/Documents/Programming/CodeBook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator -F/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator -filelist /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/CodeBook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/CodeBook36"E354B49C-C8CF-440E-8CB3-13F37ADD599B-
-
-CProcessInfoPlistFile /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Info.plist CodeBook/CodeBook-Info.plist
-s361476226.973326
-e361476226.980773
-r1
-xProcessInfoPlistFile
-x/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Info.plist
-xCodeBook/CodeBook-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process CodeBook/CodeBook-Info.plist16a4f982b08bb541^f641fe82b08bb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/CodeBook-Info.plist0000000000000000^731"ProcessInfoPlistFile build/Debug-iphonesimulator/CodeBook.app/Info.plist CodeBook/CodeBook-Info.plist    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CodeBook/CodeBook-Info.plist -genpkginfo /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app/Info.plist36"4F99D26C-726C-4722-93A8-1F8BC33BFB94-
-
-CProcessPCH /Users/jake/Documents/Programming/CodeBook/build/CodeBook/Index/PrecompiledHeaders/CodeBook-Prefix-bdwcafzmeddemjekopssykdvhhbi_ast/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361405765.572831
-e361405765.807912
-r1
-xProcessPCH
-x/var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.pth
-xCodeBook/CodeBook-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile CodeBook/CodeBook-Prefix.pch8bc292459d8ab541^ddd2ce459d8ab541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/jake/Documents/Programming/CodeBook/CodeBook/CodeBook-Prefix.pch0000000000000000^3370"ProcessPCH /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jake/Documents/Programming/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/include -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/jake/Documents/Programming/CodeBook/build/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.dia -c /Users/jake/Documents/Programming/CodeBook/CodeBook/CodeBook-Prefix.pch -o /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/w4/mmp48tgn5bd7gqbkj8yrxm940000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CodeBook-Prefix-cjtiigmkczlxpidfcjdxwgffumxf/CodeBook-Prefix.pch.d36"06C120C8-6E71-49CA-B22B-1A2049AD059A-
-
-CTouch /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app
-s361489074.913959
-e361489074.920090
-r1
-xTouch
-x/Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app2409eab2e28bb541^c58debb2e28bb541^---0#0#0#--460"Touch build/Debug-iphonesimulator/CodeBook.app    cd /Users/jake/Documents/Programming/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/jake/Documents/Programming/CodeBook/build/Debug-iphonesimulator/CodeBook.app36"4C5D050A-EEA5-42C0-9844-2C706428115D-
-
