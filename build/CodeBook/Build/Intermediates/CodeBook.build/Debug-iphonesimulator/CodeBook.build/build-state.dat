@@ -1,1404 +1,0 @@
-TCodeBook
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist CodeBook/CodeBook-Info.plist
-cProcessPCH /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386
-cGenerateDSYMFile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-cCpResource CodeBook/HTML/jquery-1.7.2.min.js build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-cCpResource CodeBook/HTML/cipher.js build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.js
-cCopyStringsFile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings CodeBook/en.lproj/InfoPlist.strings
-cCpResource CodeBook/HTML/trifid.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid.html
-cCompileStoryboard /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-cCompileStoryboard /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-cCpResource CodeBook/HTML/ascii.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.html
-cCpResource CodeBook/HTML/atbash.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html
-cCpResource CodeBook/HTML/bifid.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid.html
-cCpResource CodeBook/HTML/caesar.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html
-cCpResource CodeBook/HTML/keyword.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.html
-cCpResource CodeBook/HTML/morse.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.html
-cCpResource CodeBook/HTML/playfair.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair.html
-cCpResource CodeBook/HTML/coltrans.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans.html
-cCpResource CodeBook/HTML/polybius.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius.html
-cCpResource CodeBook/HTML/railfence.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence.html
-cCpResource CodeBook/HTML/style.css build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css
-cCpResource CodeBook/HTML/tap.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap.html
-cCpResource CodeBook/HTML/back.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/back.png
-cCpResource CodeBook/HTML/ascii-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-cCpResource CodeBook/HTML/ascii.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.png
-cCpResource CodeBook/HTML/atbash-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-cCpResource CodeBook/HTML/bifid-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-cCpResource CodeBook/HTML/caesar-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-cCpResource CodeBook/HTML/coltrans-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-cCpResource CodeBook/HTML/keyword-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-cCpResource CodeBook/HTML/morse-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse-info.html
-cCpResource CodeBook/HTML/morse.gif build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.gif
-cCpResource CodeBook/HTML/playfair-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-cCpResource CodeBook/HTML/railfence-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-cCpResource CodeBook/HTML/tap-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap-info.html
-cCpResource CodeBook/HTML/polybius-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-cCpResource CodeBook/HTML/trifid-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-cCpResource icon57.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57.png
-cCpResource icon57@2x.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-cCpResource icon72.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72.png
-cCpResource icon72@2x.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-cCpResource Default.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default.png
-cCpResource Default-Portrait~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-cCpResource Default@2x.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-cCpResource Default-Portrait@2x~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-cCpResource Default-Landscape~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-cCpResource Default-Landscape@2x~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-cCompileXIB /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoView.xib
-cTouch /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F747C080000000000000110
-t1333033992
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004F58E2A00000000000244490
-t1331225248
-s2376848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004F58E2A00000000000353830
-t1331225248
-s3487792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004F58E2A40000000000905E40
-t1331225252
-s9461312
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.h
-c000000004FDA57E60000000000000119
-t1339709414
-s281
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.m
-c000000004FDA57E60000000000000998
-t1339709414
-s2456
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/CodeBook-Prefix.pch
-c000000004FDA57E60000000000000139
-t1339709414
-s313
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.h
-c000000004FDA58B70000000000000171
-t1339709623
-s369
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.m
-c000000004FDA5CD00000000000000C07
-t1339710672
-s3079
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/atbash.html
-c000000004FDA3ADB00000000000003B3
-t1339701979
-s947
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/caesar.html
-c000000004FDA3A61000000000000045F
-t1339701857
-s1119
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/cipher.js
-c000000004FDA3B730000000000005BA3
-t1339702131
-s23459
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/jquery-1.7.2.min.js
-c000000004FDA2CC80000000000017278
-t1339698376
-s94840
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/keyword.html
-c000000004FDA3B360000000000000464
-t1339702070
-s1124
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/style.css
-c000000004FDA39C800000000000001CA
-t1339701704
-s458
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.h
-c000000004FDA57E60000000000000155
-t1339709414
-s341
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.m
-c000000004FDA5B6C0000000000001217
-t1339710316
-s4631
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/InfoPlist.strings
-c000000004FDA57E6000000000000002D
-t1339709414
-s45
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-c000000004FDA5987000000000000257C
-t1339709831
-s9596
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-c000000004FDA595B0000000000001E16
-t1339709787
-s7702
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/main.m
-c000000004FDA57E6000000000000014B
-t1339709414
-s331
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o
-t1339709703
-s62624
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/CodeBook.LinkFileList
-c000000004FDA590600000000000002C3
-t1339709702
-s707
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o
-t1339710599
-s58300
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o
-t1339710318
-s61072
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o
-t1339709703
-s3100
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch.pth
-t1339709703
-s4021492
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app
-t1339710599
-s408
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM
-t1339710599
-s102
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-t1339710599
-s31440
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist
-t1339709702
-s1008
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/PkgInfo
-t1339709702
-s8
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html
-t1339709928
-s947
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html
-t1339709928
-s1119
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.js
-t1339709928
-s23459
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings
-t1339709703
-s42
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPad.storyboardc
-t1339709835
-s272
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPhone.storyboardc
-t1339709835
-s272
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-t1339709928
-s94840
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.html
-t1339709928
-s1124
-
-N/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css
-t1339709928
-s458
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.h
-c000000004FDBB52F0000000000000119
-t1339798831
-s281
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.m
-c000000004FDBB52F0000000000000998
-t1339798831
-s2456
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/CodeBook-Prefix.pch
-c000000004FDBB52F0000000000000139
-t1339798831
-s313
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.h
-c000000004FDBBCFE0000000000000195
-t1339800830
-s405
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m
-c000000004FDBC08800000000000010C7
-t1339801736
-s4295
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/ascii-info.html
-c000000004FDBB52F0000000000000235
-t1339798831
-s565
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/ascii.html
-c000000004FDBB52F00000000000003B9
-t1339798831
-s953
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/ascii.png
-c000000004FDBB52F0000000000000CF6
-t1339798831
-s3318
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/atbash-info.html
-c000000004FDBB52F0000000000000251
-t1339798831
-s593
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/atbash.html
-c000000004FDBB52F00000000000003B3
-t1339798831
-s947
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/back.png
-c000000004FDBB52F000000000000049E
-t1339798831
-s1182
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/bifid-info.html
-c000000004FDBB52F00000000000008AF
-t1339798831
-s2223
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/bifid.html
-c000000004FDBB52F00000000000003B1
-t1339798831
-s945
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/caesar-info.html
-c000000004FDBB52F000000000000046D
-t1339798831
-s1133
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/caesar.html
-c000000004FDBB52F000000000000046E
-t1339798831
-s1134
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/cipher.js
-c000000004FDBB52F0000000000005FA2
-t1339798831
-s24482
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/coltrans-info.html
-c000000004FDBB52F0000000000000827
-t1339798831
-s2087
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/coltrans.html
-c000000004FDBB52F0000000000000593
-t1339798831
-s1427
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/jquery-1.7.2.min.js
-c000000004FDBB52F0000000000017278
-t1339798831
-s94840
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/keyword-info.html
-c000000004FDBB52F0000000000000352
-t1339798831
-s850
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/keyword.html
-c000000004FDBB52F0000000000000464
-t1339798831
-s1124
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/morse-info.html
-c000000004FDBB52F00000000000003D5
-t1339798831
-s981
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/morse.gif
-c000000004FDBB52F0000000000003946
-t1339798831
-s14662
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/morse.html
-c000000004FDBB52F00000000000003B9
-t1339798831
-s953
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/playfair-info.html
-c000000004FDBB52F0000000000000A80
-t1339798831
-s2688
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/playfair.html
-c000000004FDBB52F00000000000005C7
-t1339798831
-s1479
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/polybius-info.html
-c000000004FDBB52F0000000000000545
-t1339798831
-s1349
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/polybius.html
-c000000004FDBB52F00000000000003C3
-t1339798831
-s963
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/railfence-info.html
-c000000004FDBB52F0000000000000497
-t1339798831
-s1175
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/railfence.html
-c000000004FDBB52F000000000000047E
-t1339798831
-s1150
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/style.css
-c000000004FDBB52F00000000000003EC
-t1339798831
-s1004
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/tap-info.html
-c000000004FDBB52F000000000000075D
-t1339798831
-s1885
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/tap.html
-c000000004FDBB52F00000000000003B5
-t1339798831
-s949
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/trifid-info.html
-c000000004FDBB52F0000000000000957
-t1339798831
-s2391
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/trifid.html
-c000000004FDBB52F00000000000003B3
-t1339798831
-s947
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoView.xib
-c000000004FDBC15C0000000000002571
-t1339801948
-s9585
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.h
-c000000004FDBC1AE0000000000000171
-t1339802030
-s369
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.m
-c000000004FDBC1AC0000000000000621
-t1339802028
-s1569
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.h
-c000000004FDBB52F0000000000000155
-t1339798831
-s341
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m
-c000000004FDBB52F0000000000001E8F
-t1339798831
-s7823
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/InfoPlist.strings
-c000000004FDBB52F000000000000002D
-t1339798831
-s45
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-c000000004FDBB52F000000000000258A
-t1339798831
-s9610
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-c000000004FDBBEAE0000000000002EB1
-t1339801262
-s11953
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m
-c000000004FDBB52F000000000000014B
-t1339798831
-s331
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Landscape@2x~ipad.png
-c000000004FDBB52F000000000003F0F1
-t1339798831
-s258289
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Landscape~ipad.png
-c000000004FDBB52F000000000001B407
-t1339798831
-s111623
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Portrait@2x~ipad.png
-c000000004FDBB52F000000000003391E
-t1339798831
-s211230
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Portrait~ipad.png
-c000000004FDBB52F0000000000014619
-t1339798831
-s83481
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default.png
-c000000004FDBB52F00000000000077C3
-t1339798831
-s30659
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default@2x.png
-c000000004FDBB52F000000000000ED14
-t1339798831
-s60692
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o
-t1339798860
-s62648
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/CodeBook.LinkFileList
-c000000004FDBBB2000000000000003A0
-t1339800352
-s928
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o
-t1339801948
-s61184
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.o
-t1339801999
-s53480
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o
-t1339801513
-s70940
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o
-t1339798860
-s3124
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.pth
-t1339798859
-s4021572
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app
-t1339801999
-s1598
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM
-t1339801999
-s102
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-t1339801999
-s42760
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-t1339798860
-s258289
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-t1339798860
-s111623
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-t1339798860
-s211230
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-t1339798860
-s83481
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default.png
-t1339798860
-s30659
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-t1339798860
-s60692
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist
-t1339798831
-s1008
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/InfoView.nib
-t1339801949
-s1453
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/PkgInfo
-t1339798831
-s8
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-t1339798860
-s565
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.html
-t1339798860
-s953
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.png
-t1339798860
-s3318
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-t1339798860
-s593
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html
-t1339798831
-s947
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/back.png
-t1339798860
-s1182
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-t1339798860
-s2223
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid.html
-t1339798860
-s945
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-t1339798860
-s1133
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html
-t1339798831
-s1119
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.js
-t1339798831
-s23459
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-t1339798860
-s2087
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans.html
-t1339798860
-s1427
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings
-t1339798831
-s42
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPad.storyboardc
-t1339798831
-s272
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPhone.storyboardc
-t1339801514
-s340
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57.png
-t1339798860
-s4478
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-t1339798860
-s14805
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72.png
-t1339798860
-s6805
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-t1339798860
-s20589
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-t1339798831
-s94840
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-t1339798860
-s850
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.html
-t1339798831
-s1124
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse-info.html
-t1339798860
-s981
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.gif
-t1339798860
-s14662
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.html
-t1339798860
-s953
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-t1339798860
-s2688
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair.html
-t1339798860
-s1479
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-t1339798860
-s1349
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius.html
-t1339798860
-s963
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-t1339798860
-s1175
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence.html
-t1339798860
-s1150
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css
-t1339798831
-s458
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap-info.html
-t1339798860
-s1885
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap.html
-t1339798860
-s949
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-t1339798860
-s2391
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid.html
-t1339798860
-s947
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon57.png
-c000000004FDBB52F000000000000117E
-t1339798831
-s4478
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon57@2x.png
-c000000004FDBB52F00000000000039D5
-t1339798831
-s14805
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon72.png
-c000000004FDBB52F0000000000001A95
-t1339798831
-s6805
-
-N/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon72@2x.png
-c000000004FDBB52F000000000000506D
-t1339798831
-s20589
-
-NCodeBook/CodeBook-Info.plist
-c000000004FDBB52F00000000000008A8
-t1339798831
-s2216
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/main.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m
-r0
-
-CBuild AST from /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5e81e42ef98bb541^a6d5e42ef98bb541^-262"warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/cipher.js' of type sourcecode.javascript for architecture i386warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/jquery-1.7.2.min.js' of type sourcecode.javascript for architecture i3862(21%IDEActivityLogMessage2@125"Warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/cipher.js' of type sourcecode.javascript for architecture i386-361494830#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@135"Warning: no rule to process file '$(PROJECT_DIR)/CodeBook/HTML/jquery-1.7.2.min.js' of type sourcecode.javascript for architecture i386-361494830#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"0E126D3B-98A3-4B3F-8312-AD5B5806BF4D-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361402503.092242
-e361402503.138777
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.md9b31787908ab541^268b2387908ab541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.m0000000000000000^3785"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.dia -c /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/AppDelegate.m -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o36"28C94C1B-8FC5-4C57-B5FE-960D782D0C7D-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361491659.980561
-e361491660.028671
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.mf819fbcbec8bb541^475907ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.m0000000000000000^3897"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o CodeBook/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.dia -c /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/AppDelegate.m -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/AppDelegate.o36"B7C0A607-33AF-431E-A033-D5370D9EDA4B-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361403473.435184
-e361403473.474529
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.m917e6f51948ab541^577a7951948ab541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.m0000000000000000^3839"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.dia -c /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/DetailViewController.m -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o36"A2A21C1C-6F1D-4F07-956C-2F2FD7457A7E-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361494830.917603
-e361494830.959276
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m:95:15: warning: unused variable 'infoFileName' [-Wunused-variable]
-o    NSString    *infoFileName = [self.detailItem objectForKey:@"INFO"];
-o                 ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.mbdfcea2ef98bb541^af94f52ef98bb541^-272"/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m:95:15: warning: unused variable 'infoFileName' [-Wunused-variable]    NSString    *infoFileName = [self.detailItem objectForKey:@"INFO"];                 ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@30"Unused variable 'infoFileName'-361494830#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m0000000000000000^94#14#94#14#2791#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m0000000000000000^3951"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o CodeBook/DetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.dia -c /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/DetailViewController.m -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/DetailViewController.o36"27FDEA94-B654-4599-98A4-63D51A55C82B-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361494830.918806
-e361494830.956387
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.o
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.mbf49eb2ef98bb541^d8d5f42ef98bb541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.m0000000000000000^3939"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.o CodeBook/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.dia -c /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoViewController.m -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/InfoViewController.o36"E04D413A-EB43-482C-83F7-D7DDE52E5398-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361403118.594514
-e361403118.639173
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.m564998ee928ab541^e8a0a3ee928ab541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.m0000000000000000^3839"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.dia -c /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/MasterViewController.m -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o36"89080C01-9303-4A9B-A6CF-792D95A68581-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361494313.250910
-e361494313.306966
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m08574029f78bb541^a2964e29f78bb541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m0000000000000000^3951"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o CodeBook/MasterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.dia -c /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/MasterViewController.m -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/MasterViewController.o36"E6DE19F0-DABF-4E9B-A3E2-D1DED77EC489-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361402503.092224
-e361402503.114548
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/main.m96b31787908ab541^da541d87908ab541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/main.m0000000000000000^3743"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.dia -c /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/main.m -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o36"7652025A-AE83-4085-9B26-5D8DF357375B-
-
-CCompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361491659.980097
-e361491660.004773
-r1
-xCompileC
-xbuild/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m97fdfacbec8bb541^653901ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m0000000000000000^3855"CompileC build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o CodeBook/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -include /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.dia -c /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/main.m -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/main.o36"AA2204FC-BBE2-473B-A530-DC87C9D191EE-
-
-CCompileStoryboard /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-s361402635.203590
-e361402635.335702
-r1
-xCompileStoryboard
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPad.storyboard992a340b918ab541^52f3550b918ab541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^983"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"71E0A980-4995-4F57-A454-F6BFDA4F7668-
-
-CCompileStoryboard /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-s361402635.203487
-e361402635.318407
-r1
-xCompileStoryboard
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPhone.storyboarddc2a340b918ab541^cb9d510b918ab541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^989"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"32866246-2DBF-4E43-A014-BDC6DBB07C57-
-
-CCompileStoryboard /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPad.storyboard
-r0
-
-CCompileStoryboard /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-s361494313.383271
-e361494314.651794
-r1
-xCompileStoryboard
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard
-o/* com.apple.ibtool.document.warnings */
-o/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard:wql-zs-keV: warning: Plain Style unsupported in a Navigation Item [9]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPhone.storyboard992c6229f78bb541^3cdca62af78bb541^-223"/* com.apple.ibtool.document.warnings *//Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard:wql-zs-keV: warning: Plain Style unsupported in a Navigation Item [9]1(21%IDEActivityLogMessage2@44"Plain Style unsupported in a Navigation Item-361494314#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@127"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@127"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1013"CompileStoryboard CodeBook/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"796B6041-7F98-4F17-9D44-2FFC688FF67F-
-
-CCompileXIB /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoView.xib
-s361494749.106221
-e361494749.680488
-r1
-xCompileXIB
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoView.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoView.xibf33d1bddf88bb541^556dafddf88bb541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoView.xib0000000000000000^917"CompileXIB CodeBook/InfoView.xib    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/InfoView.nib /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/InfoView.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"E05360DF-73AF-48BE-9D9E-BD4F74CE0CB8-
-
-CCopyStringsFile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings CodeBook/en.lproj/InfoPlist.strings
-s361402503.199877
-e361402503.202731
-r1
-xCopyStringsFile
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings
-xCodeBook/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy CodeBook/en.lproj/InfoPlist.strings363e3387908ab541^4be73387908ab541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/en.lproj/InfoPlist.strings0000000000000000^655"CopyStringsFile build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings CodeBook/en.lproj/InfoPlist.strings    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj -- CodeBook/en.lproj/InfoPlist.strings36"E4788E2E-8A44-4EDD-B9BE-747873B04D26-
-
-CCopyStringsFile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/en.lproj/InfoPlist.strings CodeBook/en.lproj/InfoPlist.strings
-r0
-
-CCpResource CodeBook/HTML/ascii-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-s361491660.142388
-e361491660.144543
-r1
-xCpResource
-xCodeBook/HTML/ascii-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii-info.htmlcc7f24ccec8bb541^bc0225ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii-info.html000000000080d041^819"CpResource CodeBook/HTML/ascii-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/ascii-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"D5027FB7-8C0A-41E7-8F14-739F0A1E05A1-
-
-CCpResource CodeBook/HTML/ascii.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.html
-s361491660.108833
-e361491660.134991
-r1
-xCpResource
-xCodeBook/HTML/ascii.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.htmld9e91bccec8bb541^5b9722ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.html000000000080d041^804"CpResource CodeBook/HTML/ascii.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/ascii.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"D00AEDA8-8ED6-4DE2-A622-D4F45BD4216C-
-
-CCpResource CodeBook/HTML/ascii.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.png
-s361491660.142550
-e361491660.145874
-r1
-xCpResource
-xCodeBook/HTML/ascii.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.pngf48924ccec8bb541^ea5825ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.png000000000080d041^801"CpResource CodeBook/HTML/ascii.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/ascii.png    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/ascii.png /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"0101B074-CCBA-4A0F-973A-F0B3CE28D5F0-
-
-CCpResource CodeBook/HTML/atbash-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-s361491660.143816
-e361491660.146898
-r1
-xCpResource
-xCodeBook/HTML/atbash-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash-info.html1ade24ccec8bb541^569d25ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash-info.html000000000080d041^822"CpResource CodeBook/HTML/atbash-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/atbash-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"63C17CB8-59D9-4D69-B2C9-E52DD078E3C7-
-
-CCpResource CodeBook/HTML/atbash.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html
-s361402728.507609
-e361402728.510365
-r1
-xCpResource
-xCodeBook/HTML/atbash.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html71ff8168918ab541^cea78268918ab541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html000000000080d041^783"CpResource CodeBook/HTML/atbash.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/atbash.html    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/atbash.html /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"D4669B45-BF39-496F-93E6-81673C7EF588-
-
-CCpResource CodeBook/HTML/back.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/back.png
-s361491660.139171
-e361491660.144198
-r1
-xCpResource
-xCodeBook/HTML/back.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/back.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/back.png93ac23ccec8bb541^cceb24ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/back.png000000000080d041^798"CpResource CodeBook/HTML/back.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/back.png    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/back.png /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"02560613-DBD5-4644-9195-64B36B3EF44C-
-
-CCpResource CodeBook/HTML/bifid-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-s361491660.145280
-e361491660.148055
-r1
-xCpResource
-xCodeBook/HTML/bifid-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid-info.html793c25ccec8bb541^75e725ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid-info.html000000000080d041^819"CpResource CodeBook/HTML/bifid-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/bifid-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"60790763-6C30-45EE-A63D-C7E4F892B428-
-
-CCpResource CodeBook/HTML/bifid.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid.html
-s361491660.131039
-e361491660.134978
-r1
-xCpResource
-xCodeBook/HTML/bifid.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid.html029d21ccec8bb541^4b9322ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid.html000000000080d041^804"CpResource CodeBook/HTML/bifid.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/bifid.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/bifid.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"757B6682-C0A1-48E2-9397-A316EF035CE2-
-
-CCpResource CodeBook/HTML/caesar-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-s361491660.145295
-e361491660.149289
-r1
-xCpResource
-xCodeBook/HTML/caesar-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar-info.html703e25ccec8bb541^653826ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar-info.html000000000080d041^822"CpResource CodeBook/HTML/caesar-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/caesar-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"2F7AB5D1-04CA-49CA-BEB9-F6C551F733E1-
-
-CCpResource CodeBook/HTML/caesar.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html
-s361402728.508730
-e361402728.512587
-r1
-xCpResource
-xCodeBook/HTML/caesar.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html73488268918ab541^5c398368918ab541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html000000000080d041^783"CpResource CodeBook/HTML/caesar.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/caesar.html    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/caesar.html /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"4746B8C0-6FDB-46B2-B1D8-C8EBF9B5650C-
-
-CCpResource CodeBook/HTML/cipher.js build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.js
-s361402728.505975
-e361402728.509280
-r1
-xCpResource
-xCodeBook/HTML/cipher.js
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.js
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.jsc8968168918ab541^e5608268918ab541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.js000000000080d041^777"CpResource CodeBook/HTML/cipher.js build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/cipher.js    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/cipher.js /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"B4C29465-05C7-47EC-ACFA-F4328EF4CFA1-
-
-CCpResource CodeBook/HTML/coltrans-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-s361491660.146983
-e361491660.150529
-r1
-xCpResource
-xCodeBook/HTML/coltrans-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans-info.html26ac25ccec8bb541^fc8926ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans-info.html000000000080d041^828"CpResource CodeBook/HTML/coltrans-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/coltrans-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"288BE289-777C-41A4-87C8-F6606C7358A6-
-
-CCpResource CodeBook/HTML/coltrans.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans.html
-s361491660.136198
-e361491660.138887
-r1
-xCpResource
-xCodeBook/HTML/coltrans.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans.htmleaea22ccec8bb541^9f8e23ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans.html000000000080d041^813"CpResource CodeBook/HTML/coltrans.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/coltrans.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/coltrans.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"328350BE-9FA3-4CDC-A166-56219811E34F-
-
-CCpResource CodeBook/HTML/jquery-1.7.2.min.js build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-s361402728.505941
-e361402728.508323
-r1
-xCpResource
-xCodeBook/HTML/jquery-1.7.2.min.js
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js4e978168918ab541^0f488268918ab541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js000000000080d041^807"CpResource CodeBook/HTML/jquery-1.7.2.min.js build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/jquery-1.7.2.min.js    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/jquery-1.7.2.min.js /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"08948DE1-D7EC-4CC1-AC0D-AD84F1D7D168-
-
-CCpResource CodeBook/HTML/keyword-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-s361491660.146995
-e361491660.151705
-r1
-xCpResource
-xCodeBook/HTML/keyword-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword-info.html75ad25ccec8bb541^4dd826ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword-info.html000000000080d041^825"CpResource CodeBook/HTML/keyword-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/keyword-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"F031A1F5-5A62-44FC-AB9B-AFCDF35F4E4E-
-
-CCpResource CodeBook/HTML/keyword.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.html
-s361402728.508725
-e361402728.511808
-r1
-xCpResource
-xCodeBook/HTML/keyword.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.htmldc478268918ab541^03088368918ab541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.html000000000080d041^786"CpResource CodeBook/HTML/keyword.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/keyword.html    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/keyword.html /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"01DB621F-5CFA-4D96-B95B-9B3BFA1DDFF4-
-
-CCpResource CodeBook/HTML/morse-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse-info.html
-s361491660.149250
-e361491660.152305
-r1
-xCpResource
-xCodeBook/HTML/morse-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse-info.html924126ccec8bb541^cafd26ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse-info.html000000000080d041^819"CpResource CodeBook/HTML/morse-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/morse-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"5D830603-B83A-44D5-9935-06FCE6771982-
-
-CCpResource CodeBook/HTML/morse.gif build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.gif
-s361491660.150443
-e361491660.153361
-r1
-xCpResource
-xCodeBook/HTML/morse.gif
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.gif
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.gifa48e26ccec8bb541^744327ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.gif000000000080d041^801"CpResource CodeBook/HTML/morse.gif build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.gif    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/morse.gif /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"AF26B0D5-DA1B-49C5-847C-CD6F6E03BA04-
-
-CCpResource CodeBook/HTML/morse.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.html
-s361491660.134881
-e361491660.136831
-r1
-xCpResource
-xCodeBook/HTML/morse.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.html9a9422ccec8bb541^fa0923ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.html000000000080d041^804"CpResource CodeBook/HTML/morse.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/morse.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/morse.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"B91D4694-4695-4254-BDD1-5E5782604794-
-
-CCpResource CodeBook/HTML/playfair-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-s361491660.151725
-e361491660.154353
-r1
-xCpResource
-xCodeBook/HTML/playfair-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair-info.htmlc1e426ccec8bb541^e88527ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair-info.html000000000080d041^828"CpResource CodeBook/HTML/playfair-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/playfair-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"467F9426-4962-45AA-9AB3-7A639F4DE6A1-
-
-CCpResource CodeBook/HTML/playfair.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair.html
-s361491660.134898
-e361491660.137790
-r1
-xCpResource
-xCodeBook/HTML/playfair.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair.html429522ccec8bb541^a64723ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair.html000000000080d041^813"CpResource CodeBook/HTML/playfair.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/playfair.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/playfair.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"4D894C8A-064E-4480-A494-62D344DD8FAD-
-
-CCpResource CodeBook/HTML/polybius-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-s361491660.152858
-e361491660.156310
-r1
-xCpResource
-xCodeBook/HTML/polybius-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius-info.htmld32d27ccec8bb541^810528ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius-info.html000000000080d041^828"CpResource CodeBook/HTML/polybius-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/polybius-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"E46E1B61-F7C9-4373-98D1-5C33A065BE0D-
-
-CCpResource CodeBook/HTML/polybius.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius.html
-s361491660.136271
-e361491660.141181
-r1
-xCpResource
-xCodeBook/HTML/polybius.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius.htmlb7ee22ccec8bb541^e62424ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius.html000000000080d041^813"CpResource CodeBook/HTML/polybius.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/polybius.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/polybius.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"035A523F-6D21-4AF2-AEAF-74E1CC01A32C-
-
-CCpResource CodeBook/HTML/railfence-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-s361491660.152870
-e361491660.156645
-r1
-xCpResource
-xCodeBook/HTML/railfence-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence-info.html7b2e27ccec8bb541^c11928ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence-info.html000000000080d041^831"CpResource CodeBook/HTML/railfence-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/railfence-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"05D56C53-E8B1-408E-A18E-09156B1E9D7D-
-
-CCpResource CodeBook/HTML/railfence.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence.html
-s361491660.137922
-e361491660.141211
-r1
-xCpResource
-xCodeBook/HTML/railfence.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence.html325a23ccec8bb541^0e2f24ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence.html000000000080d041^816"CpResource CodeBook/HTML/railfence.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/railfence.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/railfence.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"51474D86-06C5-4876-88D0-BEE5139F15DE-
-
-CCpResource CodeBook/HTML/style.css build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css
-s361402728.510402
-e361402728.513916
-r1
-xCpResource
-xCodeBook/HTML/style.css
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css91b58268918ab541^5c928368918ab541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css000000000080d041^777"CpResource CodeBook/HTML/style.css build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/style.css    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/HTML/style.css /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"79A5FCF3-59E4-4DA6-ABF7-0B509B25810F-
-
-CCpResource CodeBook/HTML/tap-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap-info.html
-s361491660.154516
-e361491660.158106
-r1
-xCpResource
-xCodeBook/HTML/tap-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap-info.html7c9a27ccec8bb541^147b28ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap-info.html000000000080d041^813"CpResource CodeBook/HTML/tap-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/tap-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"85537089-2923-44B6-8A3E-F38293DAFF91-
-
-CCpResource CodeBook/HTML/tap.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap.html
-s361491660.139132
-e361491660.142738
-r1
-xCpResource
-xCodeBook/HTML/tap.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap.html37aa23ccec8bb541^118b24ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap.html000000000080d041^798"CpResource CodeBook/HTML/tap.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/tap.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/tap.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"AD761512-E8C8-4F4B-99B6-5CE86ACD548B-
-
-CCpResource CodeBook/HTML/trifid-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-s361491660.154545
-e361491660.159140
-r1
-xCpResource
-xCodeBook/HTML/trifid-info.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid-info.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid-info.html639c27ccec8bb541^16c028ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid-info.html000000000080d041^822"CpResource CodeBook/HTML/trifid-info.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid-info.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/trifid-info.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"9475400C-4289-4F6C-8523-B3FD772DA55E-
-
-CCpResource CodeBook/HTML/trifid.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid.html
-s361491660.108213
-e361491660.131593
-r1
-xCpResource
-xCodeBook/HTML/trifid.html
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid.html
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid.htmlc6c31bccec8bb541^ffb021ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid.html000000000080d041^807"CpResource CodeBook/HTML/trifid.html build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/trifid.html    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/HTML/trifid.html /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"28E4CD66-B271-47EB-B74F-4E6D84ED9F89-
-
-CCpResource Default-Landscape@2x~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-s361491660.166944
-e361491660.170774
-r1
-xCpResource
-xDefault-Landscape@2x~ipad.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png82c82accec8bb541^fab72bccec8bb541^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png000000000080d041^839"CpResource "Default-Landscape@2x~ipad.png" "build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape@2x~ipad.png"    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Landscape@2x~ipad.png" /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"F28896CA-02EE-44B2-AEFE-FCECA41C215D-
-
-CCpResource Default-Landscape~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-s361491660.165830
-e361491660.169452
-r1
-xCpResource
-xDefault-Landscape~ipad.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png56812accec8bb541^f5632bccec8bb541^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png000000000080d041^830"CpResource "Default-Landscape~ipad.png" "build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Landscape~ipad.png"    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Landscape~ipad.png" /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"E4A300CA-32A9-4ECB-86AA-16FF8596A9D2-
-
-CCpResource Default-Portrait@2x~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-s361491660.164072
-e361491660.168348
-r1
-xCpResource
-xDefault-Portrait@2x~ipad.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png3d0f2accec8bb541^3f192bccec8bb541^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png000000000080d041^836"CpResource "Default-Portrait@2x~ipad.png" "build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait@2x~ipad.png"    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Portrait@2x~ipad.png" /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"75455091-56A1-4D7F-B99A-07714DBA10F2-
-
-CCpResource Default-Portrait~ipad.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-s361491660.164068
-e361491660.167296
-r1
-xCpResource
-xDefault-Portrait~ipad.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png780d2accec8bb541^fad32accec8bb541^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png000000000080d041^827"CpResource "Default-Portrait~ipad.png" "build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default-Portrait~ipad.png"    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default-Portrait~ipad.png" /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"DC79C200-9112-4771-922C-B5D6DDD7A39F-
-
-CCpResource Default.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default.png
-s361491660.161207
-e361491660.164679
-r1
-xCpResource
-xDefault.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default.pngad4f29ccec8bb541^392b2accec8bb541^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default.png000000000080d041^779"CpResource Default.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default.png    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default.png /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"C4688596-FD7B-4B8D-AA5D-0A36430AEB29-
-
-CCpResource Default@2x.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-s361491660.162648
-e361491660.165767
-r1
-xCpResource
-xDefault@2x.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default@2x.png47b029ccec8bb541^2a702accec8bb541^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default@2x.png000000000080d041^794"CpResource "Default@2x.png" "build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Default@2x.png"    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/Default@2x.png" /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"95DB866C-C934-403A-918D-2A7F4206D7B9-
-
-CCpResource icon57.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57.png
-s361491660.157545
-e361491660.161449
-r1
-xCpResource
-xicon57.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57.png066328ccec8bb541^0d5529ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57.png000000000080d041^776"CpResource icon57.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57.png    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon57.png /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"10E77C25-FE72-47B9-B4F9-5ABD5FAA6D19-
-
-CCpResource icon57@2x.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-s361491660.157536
-e361491660.160056
-r1
-xCpResource
-xicon57@2x.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57@2x.pngfe6028ccec8bb541^05fa28ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57@2x.png000000000080d041^791"CpResource "icon57@2x.png" "build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon57@2x.png"    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon57@2x.png" /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"FC944464-3AC5-475F-A839-6D146BDD78CB-
-
-CCpResource icon72.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72.png
-s361491660.159223
-e361491660.162867
-r1
-xCpResource
-xicon72.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72.png5fce28ccec8bb541^0cb229ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72.png000000000080d041^776"CpResource icon72.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72.png    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon72.png /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"76BFB408-8DF0-42E6-857E-B79DA1ADF03B-
-
-CCpResource icon72@2x.png build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-s361491660.159522
-e361491660.163965
-r1
-xCpResource
-xicon72@2x.png
-xbuild/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72@2x.pngd6e128ccec8bb541^44fa29ccec8bb541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72@2x.png000000000080d041^791"CpResource "icon72@2x.png" "build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/icon72@2x.png"    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/icon72@2x.png" /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"2C129A23-B998-4189-988F-373EDA01E2BC-
-
-CGenerateDSYMFile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-s361403473.528707
-e361403473.544793
-r1
-xGenerateDSYMFile
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Generating /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYMfd698751948ab541^25788b51948ab541^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM/0000000000000000^778"GenerateDSYMFile build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM36"943E833A-36ED-47D4-AB40-A8DE76A660AD-
-
-CGenerateDSYMFile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-s361494830.994294
-e361494831.011362
-r1
-xGenerateDSYMFile
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Generating /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYMd995fe2ef98bb541^d316072ff98bb541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM/0000000000000000^802"GenerateDSYMFile build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app.dSYM36"B9050A79-1895-4931-9774-28016DE6DBA8-
-
-CLd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386
-s361403473.482072
-e361403473.504993
-r1
-xLd
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook02807b51948ab541^0a4a8151948ab541^---0#0#0#--1352"Ld build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -F/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -filelist /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/CodeBook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook36"FD6C86FF-21D1-42DE-A6B3-A9B427038ED7-
-
-CLd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386
-s361494830.966874
-e361494830.988125
-r1
-xLd
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Link /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook9291f72ef98bb541^7ff9fc2ef98bb541^---0#0#0#--1392"Ld build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook normal i386    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -F/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator -filelist /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/Objects-normal/i386/CodeBook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/CodeBook36"35CF9F7D-029D-47AF-A3B7-E22F39C81269-
-
-CProcessInfoPlistFile /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist CodeBook/CodeBook-Info.plist
-s361402502.890454
-e361402502.893923
-r1
-xProcessInfoPlistFile
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist
-xCodeBook/CodeBook-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process CodeBook/CodeBook-Info.plistff03e486908ab541^88d8e486908ab541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/CodeBook-Info.plist0000000000000000^771"ProcessInfoPlistFile build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist CodeBook/CodeBook-Info.plist    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CodeBook/CodeBook-Info.plist -genpkginfo /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist36"A9BD6464-86F0-4EF6-A79D-72E5BFB4126D-
-
-CProcessInfoPlistFile /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app/Info.plist CodeBook/CodeBook-Info.plist
-r0
-
-CProcessPCH /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361402502.902796
-e361402503.085709
-r1
-xProcessPCH
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch.pth
-xCodeBook/CodeBook-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile CodeBook/CodeBook-Prefix.pch7633e786908ab541^80f01587908ab541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/CodeBook-Prefix.pch0000000000000000^3629"ProcessPCH build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch.dia -c /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/CodeBook/CodeBook-Prefix.pch -o /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch.pth -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-gythfqqpjvrliuhepmzslxviayfd/CodeBook-Prefix.pch.d36"11749448-EBE6-4AAE-A754-AFB15F08EFCE-
-
-CProcessPCH /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Index/PrecompiledHeaders/CodeBook-Prefix-clhrgggpsrgxvndetqpexmemygxn_ast/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s361491659.782392
-e361491659.973814
-r1
-xProcessPCH
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.pth
-xCodeBook/CodeBook-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile CodeBook/CodeBook-Prefix.pchbf63c8cbec8bb541^124cf9cbec8bb541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/CodeBook-Prefix.pch0000000000000000^3733"ProcessPCH build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-generated-files.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-own-target-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-all-target-headers.hmap -iquote /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/CodeBook-project-headers.hmap -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/include -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources/i386 -I/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/CodeBook.build/Debug-iphonesimulator/CodeBook.build/DerivedSources -F/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.dia -c /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/CodeBook/CodeBook-Prefix.pch -o /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.pth -MMD -MT dependencies -MF /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Intermediates/PrecompiledHeaders/CodeBook-Prefix-feleqswcmclewdctyugkxwtwkcwj/CodeBook-Prefix.pch.d36"19EC64CD-FE41-4242-B003-0BBCEA594DFE-
-
-CProcessPCH /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Index/PrecompiledHeaders/CodeBook-Prefix-cuumucnrhjdodkdrsozeqygjfrch_ast/CodeBook-Prefix.pch.pth CodeBook/CodeBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app
-s361403473.565158
-e361403473.569624
-r1
-xTouch
-x/Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Touch /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app73ba9051948ab541^aad39151948ab541^---0#0#0#--466"Touch build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app    cd /Users/cgriffin/Development/Toodledo-iPhone/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cgriffin/Development/Toodledo-iPhone/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"03E9F967-2F96-4FE6-92F0-1BF5E8851051-
-
-CTouch /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app
-s361494831.085080
-e361494831.089602
-r1
-xTouch
-x/Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Touch /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app81d1152ff98bb541^4fac1b2ff98bb541^---0#0#0#--482"Touch build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app    cd /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/cgriffin/Development/Toodledo-iPhone/Project/CodeBook/build/CodeBook/Build/Products/Debug-iphonesimulator/CodeBook.app36"C3622982-8EE3-4441-900E-2FC6727ECC0F-
-
