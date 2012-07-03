@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2C5B1C0158A8F6600606C97"
-               BuildableName = "CodeBook.app"
+               BuildableName = "codebook.app"
                BlueprintName = "CodeBook"
                ReferencedContainer = "container:CodeBook.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2C5B1C0158A8F6600606C97"
-            BuildableName = "CodeBook.app"
+            BuildableName = "codebook.app"
             BlueprintName = "CodeBook"
             ReferencedContainer = "container:CodeBook.xcodeproj">
          </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2C5B1C0158A8F6600606C97"
-            BuildableName = "CodeBook.app"
+            BuildableName = "codebook.app"
             BlueprintName = "CodeBook"
             ReferencedContainer = "container:CodeBook.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2C5B1C0158A8F6600606C97"
-            BuildableName = "CodeBook.app"
+            BuildableName = "codebook.app"
             BlueprintName = "CodeBook"
             ReferencedContainer = "container:CodeBook.xcodeproj">
          </BuildableReference>

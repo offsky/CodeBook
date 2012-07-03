@@ -1,7 +1,9 @@
-body { background-image:url('back.png'); }
+body.code { background-image:url('back.png'); }
+body.info { background-color:#fff; }
 
 #top { font-size: 1.4em; margin-bottom: 10px; background-color:#fff; border-radius: 3px; padding-left:5px;} 
 #top input{ font-size:1.0em; width:4em; }
+#top input.wide{ width:8em; }
 #top input[type="checkbox"]{ width:auto; }
 #top input[type="radio"]{ width:auto; }
 
