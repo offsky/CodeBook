@@ -41,6 +41,7 @@
 		233A2A12158A952F00D7DAEC /* trifid.html in Resources */ = {isa = PBXBuildFile; fileRef = 233A29F2158A952F00D7DAEC /* trifid.html */; };
 		233A2A31158AA09800D7DAEC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 233A2A30158AA09800D7DAEC /* back.png */; };
 		233A2A32158AA09800D7DAEC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 233A2A30158AA09800D7DAEC /* back.png */; };
+		234550E115C05BD6000D0C76 /* icon29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 234550E015C05BD6000D0C76 /* icon29@2x.png */; };
 		2360DBB415A353CA00AFB50F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2360DBB315A353CA00AFB50F /* Entitlements.plist */; };
 		23652491158B9D5000CA0329 /* ascii-info.html in Resources */ = {isa = PBXBuildFile; fileRef = 23652483158B9D5000CA0329 /* ascii-info.html */; };
 		23652492158B9D5000CA0329 /* ascii-info.html in Resources */ = {isa = PBXBuildFile; fileRef = 23652483158B9D5000CA0329 /* ascii-info.html */; };
@@ -126,6 +127,7 @@
 		233A29F0158A952F00D7DAEC /* tap.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tap.html; sourceTree = "<group>"; };
 		233A29F2158A952F00D7DAEC /* trifid.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trifid.html; sourceTree = "<group>"; };
 		233A2A30158AA09800D7DAEC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		234550E015C05BD6000D0C76 /* icon29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon29@2x.png"; sourceTree = "<group>"; };
 		2360DBB315A353CA00AFB50F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = SOURCE_ROOT; };
 		23652483158B9D5000CA0329 /* ascii-info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ascii-info.html"; sourceTree = "<group>"; };
 		23652484158B9D5000CA0329 /* ascii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ascii.png; sourceTree = "<group>"; };
@@ -154,7 +156,7 @@
 		B2A063C3158BF0FF0087F3CD /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		B2A063C4158BF0FF0087F3CD /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		B2A063C7158BF5A00087F3CD /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
-		B2C5B1C1158A8F6600606C97 /* codebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C5B1C1158A8F6600606C97 /* CodeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C5B1C5158A8F6600606C97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2C5B1C7158A8F6600606C97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2C5B1C9158A8F6600606C97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -211,6 +213,7 @@
 				23B90A03158BAFE700B88F14 /* Default-Portrait~ipad.png */,
 				23B90A01158BAFDC00B88F14 /* Default@2x.png */,
 				23B909FF158BAFD700B88F14 /* Default.png */,
+				234550E015C05BD6000D0C76 /* icon29@2x.png */,
 				23B909FD158BAED600B88F14 /* icon72@2x.png */,
 				23B909FB158BAED300B88F14 /* icon72.png */,
 				23B909F9158BAE9B00B88F14 /* icon57@2x.png */,
@@ -226,7 +229,7 @@
 		B2C5B1C2158A8F6600606C97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2C5B1C1158A8F6600606C97 /* codebook.app */,
+				B2C5B1C1158A8F6600606C97 /* CodeBook.app */,
 				B2C5B1E8158A8F6600606C97 /* CodeBookTests.octest */,
 			);
 			name = Products;
@@ -348,7 +351,7 @@
 			);
 			name = CodeBook;
 			productName = CodeBook;
-			productReference = B2C5B1C1158A8F6600606C97 /* codebook.app */;
+			productReference = B2C5B1C1158A8F6600606C97 /* CodeBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B2C5B1E7158A8F6600606C97 /* CodeBookTests */ = {
@@ -377,7 +380,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "33 Keys, Inc.";
+				ORGANIZATIONNAME = Toodledo;
 			};
 			buildConfigurationList = B2C5B1BB158A8F6600606C97 /* Build configuration list for PBXProject "CodeBook" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -447,6 +450,7 @@
 				23B90A0A158BB02C00B88F14 /* Default-Landscape@2x~ipad.png in Resources */,
 				B2A063C8158BF5A00087F3CD /* InfoView.xib in Resources */,
 				2360DBB415A353CA00AFB50F /* Entitlements.plist in Resources */,
+				234550E115C05BD6000D0C76 /* icon29@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

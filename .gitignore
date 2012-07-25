@@ -44,3 +44,7 @@ Backup[ ]of[ ]*.numbers/
 /latex/
 /Toodledo.xcodeproj/jake.pbxuser
 Classes/PersonalPreprocessorDefines.h
+
+.DS_Store
+
+Artwork/.DS_Store
