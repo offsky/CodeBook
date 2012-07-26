@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2302B15615C1998E003E73BF /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 2302B15415C1998E003E73BF /* icon29.png */; };
+		2302B15715C1998E003E73BF /* icon50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2302B15515C1998E003E73BF /* icon50.png */; };
 		23343447158AF298003118FC /* cipher.js in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E7158A952F00D7DAEC /* cipher.js */; };
 		23343448158AF29B003118FC /* jquery-1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E9158A952F00D7DAEC /* jquery-1.7.2.min.js */; };
 		233A29F3158A952F00D7DAEC /* ascii.html in Resources */ = {isa = PBXBuildFile; fileRef = 233A29E3158A952F00D7DAEC /* ascii.html */; };
@@ -111,6 +113,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2302B15415C1998E003E73BF /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon29.png; sourceTree = "<group>"; };
+		2302B15515C1998E003E73BF /* icon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon50.png; sourceTree = "<group>"; };
 		233A29E3158A952F00D7DAEC /* ascii.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ascii.html; sourceTree = "<group>"; };
 		233A29E4158A952F00D7DAEC /* atbash.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = atbash.html; sourceTree = "<group>"; };
 		233A29E5158A952F00D7DAEC /* bifid.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bifid.html; sourceTree = "<group>"; };
@@ -213,11 +217,13 @@
 				23B90A03158BAFE700B88F14 /* Default-Portrait~ipad.png */,
 				23B90A01158BAFDC00B88F14 /* Default@2x.png */,
 				23B909FF158BAFD700B88F14 /* Default.png */,
+				2302B15415C1998E003E73BF /* icon29.png */,
 				234550E015C05BD6000D0C76 /* icon29@2x.png */,
-				23B909FD158BAED600B88F14 /* icon72@2x.png */,
-				23B909FB158BAED300B88F14 /* icon72.png */,
-				23B909F9158BAE9B00B88F14 /* icon57@2x.png */,
+				2302B15515C1998E003E73BF /* icon50.png */,
 				23B909F6158BADAC00B88F14 /* icon57.png */,
+				23B909F9158BAE9B00B88F14 /* icon57@2x.png */,
+				23B909FB158BAED300B88F14 /* icon72.png */,
+				23B909FD158BAED600B88F14 /* icon72@2x.png */,
 				B2C5B200158A914800606C97 /* HTML */,
 				B2C5B1CB158A8F6600606C97 /* CodeBook */,
 				B2C5B1EF158A8F6600606C97 /* CodeBookTests */,
@@ -451,6 +457,8 @@
 				B2A063C8158BF5A00087F3CD /* InfoView.xib in Resources */,
 				2360DBB415A353CA00AFB50F /* Entitlements.plist in Resources */,
 				234550E115C05BD6000D0C76 /* icon29@2x.png in Resources */,
+				2302B15615C1998E003E73BF /* icon29.png in Resources */,
+				2302B15715C1998E003E73BF /* icon50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
