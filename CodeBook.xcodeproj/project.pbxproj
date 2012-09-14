@@ -44,6 +44,7 @@
 		233A2A31158AA09800D7DAEC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 233A2A30158AA09800D7DAEC /* back.png */; };
 		233A2A32158AA09800D7DAEC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 233A2A30158AA09800D7DAEC /* back.png */; };
 		234550E115C05BD6000D0C76 /* icon29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 234550E015C05BD6000D0C76 /* icon29@2x.png */; };
+		2351581516038D4000784F42 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2351581416038D4000784F42 /* Default-568h@2x.png */; };
 		2360DBB415A353CA00AFB50F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2360DBB315A353CA00AFB50F /* Entitlements.plist */; };
 		23652491158B9D5000CA0329 /* ascii-info.html in Resources */ = {isa = PBXBuildFile; fileRef = 23652483158B9D5000CA0329 /* ascii-info.html */; };
 		23652492158B9D5000CA0329 /* ascii-info.html in Resources */ = {isa = PBXBuildFile; fileRef = 23652483158B9D5000CA0329 /* ascii-info.html */; };
@@ -132,6 +133,7 @@
 		233A29F2158A952F00D7DAEC /* trifid.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = trifid.html; sourceTree = "<group>"; };
 		233A2A30158AA09800D7DAEC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		234550E015C05BD6000D0C76 /* icon29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon29@2x.png"; sourceTree = "<group>"; };
+		2351581416038D4000784F42 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2360DBB315A353CA00AFB50F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = SOURCE_ROOT; };
 		23652483158B9D5000CA0329 /* ascii-info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ascii-info.html"; sourceTree = "<group>"; };
 		23652484158B9D5000CA0329 /* ascii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ascii.png; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 				23B90A03158BAFE700B88F14 /* Default-Portrait~ipad.png */,
 				23B90A01158BAFDC00B88F14 /* Default@2x.png */,
 				23B909FF158BAFD700B88F14 /* Default.png */,
+				2351581416038D4000784F42 /* Default-568h@2x.png */,
 				2302B15415C1998E003E73BF /* icon29.png */,
 				234550E015C05BD6000D0C76 /* icon29@2x.png */,
 				2302B15515C1998E003E73BF /* icon50.png */,
@@ -459,6 +462,7 @@
 				234550E115C05BD6000D0C76 /* icon29@2x.png in Resources */,
 				2302B15615C1998E003E73BF /* icon29.png in Resources */,
 				2302B15715C1998E003E73BF /* icon50.png in Resources */,
+				2351581516038D4000784F42 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +620,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -694,6 +699,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -706,6 +712,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeBook/CodeBook-Prefix.pch";
 				INFOPLIST_FILE = "CodeBook/CodeBook-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
